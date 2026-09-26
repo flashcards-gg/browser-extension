@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "Lisää Flashcards.gg:hin"
+  },
+  "front": {
+    "message": "ETU"
+  },
+  "back": {
+    "message": "TAKA"
+  },
+  "save": {
+    "message": "Tallenna"
+  },
+  "cancel": {
+    "message": "Peruuta"
+  },
+  "done": {
+    "message": "Valmis"
+  },
+  "newSet": {
+    "message": "Uusi setti"
+  },
+  "setNameHint": {
+    "message": "Lukemisesta"
+  },
+  "backHint": {
+    "message": "Kirjoita takapuoli"
+  },
+  "swap": {
+    "message": "Vaihda puolet"
+  },
+  "savedTo": {
+    "message": "Tallennettu settiin $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "On jo setissä $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "Sen kortin takapuoli:"
+  },
+  "addAnyway": {
+    "message": "Lisää silti"
+  },
+  "addAnother": {
+    "message": "Lisää toinen"
+  },
+  "autoFillLabel": {
+    "message": "Auto"
+  },
+  "autoGenerating": {
+    "message": "Luodaan…"
+  },
+  "autoFillFailed": {
+    "message": "Taustapuolen täyttö epäonnistui — yritä uudelleen."
+  },
+  "autoSpecPromptTitle": {
+    "message": "Mitä taustapuolella pitäisi olla?"
+  },
+  "autoSpecPromptHint": {
+    "message": "esim. espanjankielinen käännös"
+  },
+  "autoSpecUseThis": {
+    "message": "Käytä tätä"
+  },
+  "dailyLimitFillTitle": {
+    "message": "Tekoälytäytön raja saavutettu"
+  },
+  "extDescription": {
+    "message": "Lisää kortteja valitusta tekstistä Flashcards.gg-setteihisi."
+  },
+  "set": {
+    "message": "Setti"
+  },
+  "openInApp": {
+    "message": "Avaa Flashcards.gg:ssä"
+  },
+  "noKeyTitle": {
+    "message": "Yhdistä tilisi"
+  },
+  "noKeyBody": {
+    "message": "Liitä API-avain flashcards.gg:stä (Tili › API-avaimet) laajennuksen asetuksiin. Se pysyy tässä selaimessa."
+  },
+  "openOptions": {
+    "message": "Avaa asetukset"
+  },
+  "errNetwork": {
+    "message": "Yhteys flashcards.gg:hen ei onnistunut. Tarkista yhteys ja yritä uudelleen."
+  },
+  "errAuth": {
+    "message": "API-avainta ei hyväksytty. Luo uusi osoitteessa flashcards.gg (Tili › API-avaimet) ja liitä se asetuksiin."
+  },
+  "errRate": {
+    "message": "Liian monta pyyntöä. Odota minuutti ja yritä uudelleen."
+  },
+  "errGeneric": {
+    "message": "Jokin meni pieleen. Yritä uudelleen."
+  },
+  "longHint": {
+    "message": "Pitkä valinta: se tallennetaan yhtenä korttina. Useita kortteja siitä tekee sovelluksen tekoäly."
+  },
+  "retry": {
+    "message": "Yritä uudelleen"
+  },
+  "loadingSets": {
+    "message": "Ladataan settejäsi…"
+  },
+  "optionsTitle": {
+    "message": "Flashcards.gg-laajennus"
+  },
+  "optionsKeyLabel": {
+    "message": "API-avain"
+  },
+  "optionsKeyHelp": {
+    "message": "Luo avain osoitteessa flashcards.gg (Tili › API-avaimet) ja liitä se tähän. Avain voi luoda ja muokata kaikkia settejäsi; voit peruuttaa sen siellä milloin tahansa."
+  },
+  "optionsCreateKey": {
+    "message": "Luo avain"
+  },
+  "optionsSave": {
+    "message": "Tallenna avain"
+  },
+  "optionsSaved": {
+    "message": "Avain tallennettu."
+  },
+  "optionsTest": {
+    "message": "Testaa yhteys"
+  },
+  "optionsOk": {
+    "message": "Yhdistetty. Löytyi $N$ settiä.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "Poista avain"
+  },
+  "optionsRemoved": {
+    "message": "Avain poistettu."
+  },
+  "optionsPrivacy": {
+    "message": "Valittu teksti ja kirjoittamasi takapuoli lähetetään flashcards.gg:hen vasta, kun painat Tallenna. Avain säilyy vain tässä selaimessa. Ei analytiikkaa."
+  }
+}

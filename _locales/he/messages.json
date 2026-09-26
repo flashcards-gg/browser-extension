@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "הוספה ל-Flashcards.gg"
+  },
+  "front": {
+    "message": "קדמי"
+  },
+  "back": {
+    "message": "אחורי"
+  },
+  "save": {
+    "message": "שמירה"
+  },
+  "cancel": {
+    "message": "ביטול"
+  },
+  "done": {
+    "message": "סיום"
+  },
+  "newSet": {
+    "message": "סט חדש"
+  },
+  "setNameHint": {
+    "message": "מהקריאה"
+  },
+  "backHint": {
+    "message": "הקלידו את הצד האחורי"
+  },
+  "swap": {
+    "message": "החלפת צדדים"
+  },
+  "savedTo": {
+    "message": "נשמר ב-$SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "כבר קיים ב-$SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "הצד האחורי של הכרטיסייה ההיא:"
+  },
+  "addAnyway": {
+    "message": "להוסיף בכל זאת"
+  },
+  "addAnother": {
+    "message": "הוספת עוד אחת"
+  },
+  "autoFillLabel": {
+    "message": "אוטומטי"
+  },
+  "autoGenerating": {
+    "message": "יוצר…"
+  },
+  "autoFillFailed": {
+    "message": "לא ניתן היה למלא את הצד האחורי — נסה שוב."
+  },
+  "autoSpecPromptTitle": {
+    "message": "מה צריך להיות בצד האחורי?"
+  },
+  "autoSpecPromptHint": {
+    "message": "לדוגמה: תרגום לספרדית"
+  },
+  "autoSpecUseThis": {
+    "message": "השתמש בזה"
+  },
+  "dailyLimitFillTitle": {
+    "message": "הגעת למגבלת המילוי של AI"
+  },
+  "extDescription": {
+    "message": "הוסיפו כרטיסיות מטקסט מסומן לסטים שלכם ב-Flashcards.gg."
+  },
+  "set": {
+    "message": "סט"
+  },
+  "openInApp": {
+    "message": "פתיחה ב-Flashcards.gg"
+  },
+  "noKeyTitle": {
+    "message": "חברו את החשבון"
+  },
+  "noKeyBody": {
+    "message": "הדביקו מפתח API מ-flashcards.gg (חשבון › מפתחות API) בהגדרות התוסף. הוא נשאר בדפדפן הזה."
+  },
+  "openOptions": {
+    "message": "פתיחת ההגדרות"
+  },
+  "errNetwork": {
+    "message": "לא ניתן להתחבר ל-flashcards.gg. בדקו את החיבור ונסו שוב."
+  },
+  "errAuth": {
+    "message": "מפתח ה-API לא התקבל. צרו מפתח חדש ב-flashcards.gg (חשבון › מפתחות API) והדביקו אותו בהגדרות."
+  },
+  "errRate": {
+    "message": "יותר מדי בקשות. המתינו דקה ונסו שוב."
+  },
+  "errGeneric": {
+    "message": "משהו השתבש. נסו שוב."
+  },
+  "longHint": {
+    "message": "בחירה ארוכה: היא נשמרת ככרטיסייה אחת. כדי ליצור ממנה כמה כרטיסיות, השתמשו ב-AI באפליקציה."
+  },
+  "retry": {
+    "message": "לנסות שוב"
+  },
+  "loadingSets": {
+    "message": "טוען את הסטים שלכם…"
+  },
+  "optionsTitle": {
+    "message": "תוסף Flashcards.gg"
+  },
+  "optionsKeyLabel": {
+    "message": "מפתח API"
+  },
+  "optionsKeyHelp": {
+    "message": "צרו מפתח ב-flashcards.gg (חשבון › מפתחות API) והדביקו אותו כאן. המפתח יכול ליצור ולערוך את כל הסטים שלכם; אפשר לבטל אותו שם בכל עת."
+  },
+  "optionsCreateKey": {
+    "message": "יצירת מפתח"
+  },
+  "optionsSave": {
+    "message": "שמירת המפתח"
+  },
+  "optionsSaved": {
+    "message": "המפתח נשמר."
+  },
+  "optionsTest": {
+    "message": "בדיקת חיבור"
+  },
+  "optionsOk": {
+    "message": "מחובר. נמצאו $N$ סטים.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "הסרת המפתח"
+  },
+  "optionsRemoved": {
+    "message": "המפתח הוסר."
+  },
+  "optionsPrivacy": {
+    "message": "הטקסט המסומן והצד האחורי שתקלידו נשלחים ל-flashcards.gg רק בלחיצה על שמירה. המפתח נשמר בדפדפן הזה בלבד. ללא אנליטיקה."
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "Flashcards.gg में जोड़ें"
+  },
+  "front": {
+    "message": "आगे"
+  },
+  "back": {
+    "message": "पीछे"
+  },
+  "save": {
+    "message": "सहेजें"
+  },
+  "cancel": {
+    "message": "रद्द करें"
+  },
+  "done": {
+    "message": "हो गया"
+  },
+  "newSet": {
+    "message": "नया सेट"
+  },
+  "setNameHint": {
+    "message": "पढ़ने से"
+  },
+  "backHint": {
+    "message": "पीछे का हिस्सा लिखें"
+  },
+  "swap": {
+    "message": "पक्ष बदलें"
+  },
+  "savedTo": {
+    "message": "$SET$ में सहेजा गया",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "$SET$ में पहले से है",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "उस कार्ड का पिछला हिस्सा:"
+  },
+  "addAnyway": {
+    "message": "फिर भी जोड़ें"
+  },
+  "addAnother": {
+    "message": "एक और जोड़ें"
+  },
+  "autoFillLabel": {
+    "message": "ऑटो"
+  },
+  "autoGenerating": {
+    "message": "बना रहे हैं…"
+  },
+  "autoFillFailed": {
+    "message": "पीछे का भाग भरा नहीं जा सका — फिर से कोशिश करें।"
+  },
+  "autoSpecPromptTitle": {
+    "message": "पीछे क्या होना चाहिए?"
+  },
+  "autoSpecPromptHint": {
+    "message": "जैसे स्पेनिश अनुवाद"
+  },
+  "autoSpecUseThis": {
+    "message": "इसे उपयोग करें"
+  },
+  "dailyLimitFillTitle": {
+    "message": "AI फ़िल की सीमा पूरी"
+  },
+  "extDescription": {
+    "message": "चुने हुए टेक्स्ट से अपने Flashcards.gg सेट में कार्ड जोड़ें।"
+  },
+  "set": {
+    "message": "सेट"
+  },
+  "openInApp": {
+    "message": "Flashcards.gg में खोलें"
+  },
+  "noKeyTitle": {
+    "message": "अपना खाता जोड़ें"
+  },
+  "noKeyBody": {
+    "message": "flashcards.gg (खाता › API कुंजियाँ) से एक API कुंजी एक्सटेंशन के विकल्पों में चिपकाएँ। यह इसी ब्राउज़र में रहती है।"
+  },
+  "openOptions": {
+    "message": "विकल्प खोलें"
+  },
+  "errNetwork": {
+    "message": "flashcards.gg से संपर्क नहीं हो सका। कनेक्शन जाँचें और फिर से कोशिश करें।"
+  },
+  "errAuth": {
+    "message": "API कुंजी स्वीकार नहीं हुई। flashcards.gg (खाता › API कुंजियाँ) पर नई कुंजी बनाएँ और विकल्पों में चिपकाएँ।"
+  },
+  "errRate": {
+    "message": "बहुत सारे अनुरोध। एक मिनट रुकें और फिर से कोशिश करें।"
+  },
+  "errGeneric": {
+    "message": "कुछ गड़बड़ हो गई। फिर से कोशिश करें।"
+  },
+  "longHint": {
+    "message": "लंबा चयन: यह एक कार्ड के रूप में सहेजा जाएगा। इससे कई कार्ड बनाने के लिए ऐप में AI का उपयोग करें।"
+  },
+  "retry": {
+    "message": "फिर से कोशिश करें"
+  },
+  "loadingSets": {
+    "message": "आपके सेट लोड हो रहे हैं…"
+  },
+  "optionsTitle": {
+    "message": "Flashcards.gg एक्सटेंशन"
+  },
+  "optionsKeyLabel": {
+    "message": "API कुंजी"
+  },
+  "optionsKeyHelp": {
+    "message": "flashcards.gg (खाता › API कुंजियाँ) पर एक कुंजी बनाएँ और यहाँ चिपकाएँ। कुंजी आपके सभी सेट बना और संपादित कर सकती है; आप उसे वहाँ कभी भी रद्द कर सकते हैं।"
+  },
+  "optionsCreateKey": {
+    "message": "कुंजी बनाएँ"
+  },
+  "optionsSave": {
+    "message": "कुंजी सहेजें"
+  },
+  "optionsSaved": {
+    "message": "कुंजी सहेजी गई।"
+  },
+  "optionsTest": {
+    "message": "कनेक्शन जाँचें"
+  },
+  "optionsOk": {
+    "message": "कनेक्ट हो गया। $N$ सेट मिले।",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "कुंजी हटाएँ"
+  },
+  "optionsRemoved": {
+    "message": "कुंजी हटा दी गई।"
+  },
+  "optionsPrivacy": {
+    "message": "चुना हुआ टेक्स्ट और आपका लिखा पिछला हिस्सा केवल सहेजें दबाने पर flashcards.gg को भेजा जाता है। कुंजी केवल इसी ब्राउज़र में रहती है। कोई एनालिटिक्स नहीं।"
+  }
+}

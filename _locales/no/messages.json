@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "Legg til i Flashcards.gg"
+  },
+  "front": {
+    "message": "FORSIDE"
+  },
+  "back": {
+    "message": "BAKSIDE"
+  },
+  "save": {
+    "message": "Lagre"
+  },
+  "cancel": {
+    "message": "Avbryt"
+  },
+  "done": {
+    "message": "Ferdig"
+  },
+  "newSet": {
+    "message": "Nytt sett"
+  },
+  "setNameHint": {
+    "message": "Fra lesing"
+  },
+  "backHint": {
+    "message": "Skriv baksiden"
+  },
+  "swap": {
+    "message": "Bytt sider"
+  },
+  "savedTo": {
+    "message": "Lagret i $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "Finnes allerede i $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "Baksiden på det kortet:"
+  },
+  "addAnyway": {
+    "message": "Legg til likevel"
+  },
+  "addAnother": {
+    "message": "Legg til enda ett"
+  },
+  "autoFillLabel": {
+    "message": "Auto"
+  },
+  "autoGenerating": {
+    "message": "Genererer…"
+  },
+  "autoFillFailed": {
+    "message": "Kunne ikke fylle ut baksiden — prøv igjen."
+  },
+  "autoSpecPromptTitle": {
+    "message": "Hva skal baksiden være?"
+  },
+  "autoSpecPromptHint": {
+    "message": "f.eks. spansk oversettelse"
+  },
+  "autoSpecUseThis": {
+    "message": "Bruk denne"
+  },
+  "dailyLimitFillTitle": {
+    "message": "Grense for AI-utfylling nådd"
+  },
+  "extDescription": {
+    "message": "Legg til kort fra merket tekst i settene dine på Flashcards.gg."
+  },
+  "set": {
+    "message": "Sett"
+  },
+  "openInApp": {
+    "message": "Åpne i Flashcards.gg"
+  },
+  "noKeyTitle": {
+    "message": "Koble til kontoen din"
+  },
+  "noKeyBody": {
+    "message": "Lim inn en API-nøkkel fra flashcards.gg (Konto › API-nøkler) i innstillingene til utvidelsen. Den blir i denne nettleseren."
+  },
+  "openOptions": {
+    "message": "Åpne innstillinger"
+  },
+  "errNetwork": {
+    "message": "Fikk ikke kontakt med flashcards.gg. Sjekk tilkoblingen og prøv igjen."
+  },
+  "errAuth": {
+    "message": "API-nøkkelen ble ikke godtatt. Lag en ny på flashcards.gg (Konto › API-nøkler) og lim den inn i innstillingene."
+  },
+  "errRate": {
+    "message": "For mange forespørsler. Vent et minutt og prøv igjen."
+  },
+  "errGeneric": {
+    "message": "Noe gikk galt. Prøv igjen."
+  },
+  "longHint": {
+    "message": "Lang markering: den lagres som ett kort. Flere kort lager du med AI i appen."
+  },
+  "retry": {
+    "message": "Prøv igjen"
+  },
+  "loadingSets": {
+    "message": "Laster settene dine…"
+  },
+  "optionsTitle": {
+    "message": "Flashcards.gg-utvidelse"
+  },
+  "optionsKeyLabel": {
+    "message": "API-nøkkel"
+  },
+  "optionsKeyHelp": {
+    "message": "Lag en nøkkel på flashcards.gg (Konto › API-nøkler) og lim den inn her. Nøkkelen kan opprette og redigere alle settene dine; du kan når som helst trekke den tilbake der."
+  },
+  "optionsCreateKey": {
+    "message": "Lag en nøkkel"
+  },
+  "optionsSave": {
+    "message": "Lagre nøkkel"
+  },
+  "optionsSaved": {
+    "message": "Nøkkel lagret."
+  },
+  "optionsTest": {
+    "message": "Test tilkoblingen"
+  },
+  "optionsOk": {
+    "message": "Tilkoblet. Fant $N$ sett.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "Fjern nøkkel"
+  },
+  "optionsRemoved": {
+    "message": "Nøkkel fjernet."
+  },
+  "optionsPrivacy": {
+    "message": "Den merkede teksten og baksiden du skriver, sendes til flashcards.gg først når du trykker Lagre. Nøkkelen lagres bare i denne nettleseren. Ingen analyse."
+  }
+}

@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flashcards.gg</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <main>
+    <h1 data-i18n="optionsTitle"></h1>
+    <section>
+      <label for="key" data-i18n="optionsKeyLabel"></label>
+      <div class="keyrow">
+        <input id="key" type="password" spellcheck="false" autocomplete="off" placeholder="flc_…">
+        <button id="toggle" type="button" class="ghost">👁</button>
+      </div>
+      <p class="help" data-i18n="optionsKeyHelp"></p>
+      <p class="help"><a id="createKey" href="https://flashcards.gg/account/api-keys" target="_blank" rel="noopener" data-i18n="optionsCreateKey"></a></p>
+      <div class="row">
+        <button id="save" type="button" class="primary" data-i18n="optionsSave"></button>
+        <button id="test" type="button" data-i18n="optionsTest"></button>
+        <button id="remove" type="button" class="ghost" data-i18n="optionsRemove"></button>
+      </div>
+      <p id="status" class="status" aria-live="polite"></p>
+    </section>
+    <section>
+      <p class="help" data-i18n="optionsPrivacy"></p>
+      <p class="help"><a href="https://flashcards.gg/privacy" target="_blank" rel="noopener">flashcards.gg/privacy</a></p>
+    </section>
+  </main>
+  <script src="options.js"></script>
+</body>
+</html>

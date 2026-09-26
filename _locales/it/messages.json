@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "Aggiungi a Flashcards.gg"
+  },
+  "front": {
+    "message": "FRONTE"
+  },
+  "back": {
+    "message": "RETRO"
+  },
+  "save": {
+    "message": "Salva"
+  },
+  "cancel": {
+    "message": "Annulla"
+  },
+  "done": {
+    "message": "Fatto"
+  },
+  "newSet": {
+    "message": "Nuovo set"
+  },
+  "setNameHint": {
+    "message": "Le mie letture"
+  },
+  "backHint": {
+    "message": "Scrivi il retro"
+  },
+  "swap": {
+    "message": "Scambia i lati"
+  },
+  "savedTo": {
+    "message": "Salvata in $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "Già presente in $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "Retro di quella carta:"
+  },
+  "addAnyway": {
+    "message": "Aggiungi comunque"
+  },
+  "addAnother": {
+    "message": "Aggiungine un’altra"
+  },
+  "autoFillLabel": {
+    "message": "Auto"
+  },
+  "autoGenerating": {
+    "message": "Generazione…"
+  },
+  "autoFillFailed": {
+    "message": "Impossibile compilare il retro — riprova."
+  },
+  "autoSpecPromptTitle": {
+    "message": "Cosa deve contenere il retro?"
+  },
+  "autoSpecPromptHint": {
+    "message": "es. traduzione spagnola"
+  },
+  "autoSpecUseThis": {
+    "message": "Usa questo"
+  },
+  "dailyLimitFillTitle": {
+    "message": "Limite di riempimento IA raggiunto"
+  },
+  "extDescription": {
+    "message": "Aggiungi carte ai tuoi set di Flashcards.gg dal testo selezionato."
+  },
+  "set": {
+    "message": "Set"
+  },
+  "openInApp": {
+    "message": "Apri in Flashcards.gg"
+  },
+  "noKeyTitle": {
+    "message": "Collega il tuo account"
+  },
+  "noKeyBody": {
+    "message": "Incolla una chiave API di flashcards.gg (Account › Chiavi API) nelle opzioni dell’estensione. Resta in questo browser."
+  },
+  "openOptions": {
+    "message": "Apri le opzioni"
+  },
+  "errNetwork": {
+    "message": "Impossibile raggiungere flashcards.gg. Controlla la connessione e riprova."
+  },
+  "errAuth": {
+    "message": "La chiave API non è stata accettata. Creane una nuova su flashcards.gg (Account › Chiavi API) e incollala nelle opzioni."
+  },
+  "errRate": {
+    "message": "Troppe richieste. Attendi un minuto e riprova."
+  },
+  "errGeneric": {
+    "message": "Qualcosa è andato storto. Riprova."
+  },
+  "longHint": {
+    "message": "Selezione lunga: viene salvata come una sola carta. Per crearne diverse, usa l’IA nell’app."
+  },
+  "retry": {
+    "message": "Riprova"
+  },
+  "loadingSets": {
+    "message": "Caricamento dei set…"
+  },
+  "optionsTitle": {
+    "message": "Estensione Flashcards.gg"
+  },
+  "optionsKeyLabel": {
+    "message": "Chiave API"
+  },
+  "optionsKeyHelp": {
+    "message": "Crea una chiave su flashcards.gg (Account › Chiavi API) e incollala qui. La chiave può creare e modificare tutti i tuoi set; puoi revocarla lì in qualsiasi momento."
+  },
+  "optionsCreateKey": {
+    "message": "Crea una chiave"
+  },
+  "optionsSave": {
+    "message": "Salva chiave"
+  },
+  "optionsSaved": {
+    "message": "Chiave salvata."
+  },
+  "optionsTest": {
+    "message": "Prova la connessione"
+  },
+  "optionsOk": {
+    "message": "Connesso. $N$ set trovati.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "Rimuovi chiave"
+  },
+  "optionsRemoved": {
+    "message": "Chiave rimossa."
+  },
+  "optionsPrivacy": {
+    "message": "Il testo selezionato e il retro che scrivi vengono inviati a flashcards.gg solo quando premi Salva. La chiave resta solo in questo browser. Nessuna analisi d’uso."
+  }
+}

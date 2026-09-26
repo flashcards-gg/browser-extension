@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "添加到 Flashcards.gg"
+  },
+  "front": {
+    "message": "正面"
+  },
+  "back": {
+    "message": "背面"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "done": {
+    "message": "完成"
+  },
+  "newSet": {
+    "message": "新卡片集"
+  },
+  "setNameHint": {
+    "message": "来自阅读"
+  },
+  "backHint": {
+    "message": "输入背面"
+  },
+  "swap": {
+    "message": "交换正反面"
+  },
+  "savedTo": {
+    "message": "已保存到 $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "$SET$ 中已有此卡",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "那张卡片的背面："
+  },
+  "addAnyway": {
+    "message": "仍然添加"
+  },
+  "addAnother": {
+    "message": "再添加一张"
+  },
+  "autoFillLabel": {
+    "message": "自动"
+  },
+  "autoGenerating": {
+    "message": "生成中…"
+  },
+  "autoFillFailed": {
+    "message": "无法填充背面——请重试。"
+  },
+  "autoSpecPromptTitle": {
+    "message": "背面应该是什么？"
+  },
+  "autoSpecPromptHint": {
+    "message": "例如：西班牙语翻译"
+  },
+  "autoSpecUseThis": {
+    "message": "使用此项"
+  },
+  "dailyLimitFillTitle": {
+    "message": "已达 AI 填充上限"
+  },
+  "extDescription": {
+    "message": "从选中的文字向你的 Flashcards.gg 卡片集添加卡片。"
+  },
+  "set": {
+    "message": "卡片集"
+  },
+  "openInApp": {
+    "message": "在 Flashcards.gg 中打开"
+  },
+  "noKeyTitle": {
+    "message": "连接你的账户"
+  },
+  "noKeyBody": {
+    "message": "在扩展选项中粘贴来自 flashcards.gg（账户 › API 密钥）的 API 密钥。密钥只保存在此浏览器中。"
+  },
+  "openOptions": {
+    "message": "打开选项"
+  },
+  "errNetwork": {
+    "message": "无法连接 flashcards.gg。请检查网络后重试。"
+  },
+  "errAuth": {
+    "message": "API 密钥未被接受。请在 flashcards.gg（账户 › API 密钥）新建一个，并粘贴到选项中。"
+  },
+  "errRate": {
+    "message": "请求过多。请等待一分钟后重试。"
+  },
+  "errGeneric": {
+    "message": "出了点问题，请重试。"
+  },
+  "longHint": {
+    "message": "选中的内容较长，将保存为一张卡片。要生成多张卡片，请在应用中使用 AI。"
+  },
+  "retry": {
+    "message": "重试"
+  },
+  "loadingSets": {
+    "message": "正在加载你的卡片集…"
+  },
+  "optionsTitle": {
+    "message": "Flashcards.gg 扩展"
+  },
+  "optionsKeyLabel": {
+    "message": "API 密钥"
+  },
+  "optionsKeyHelp": {
+    "message": "在 flashcards.gg（账户 › API 密钥）创建密钥并粘贴到此处。该密钥可以创建和编辑你的所有卡片集；你可以随时在那里撤销。"
+  },
+  "optionsCreateKey": {
+    "message": "创建密钥"
+  },
+  "optionsSave": {
+    "message": "保存密钥"
+  },
+  "optionsSaved": {
+    "message": "密钥已保存。"
+  },
+  "optionsTest": {
+    "message": "测试连接"
+  },
+  "optionsOk": {
+    "message": "已连接。找到 $N$ 个卡片集。",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "移除密钥"
+  },
+  "optionsRemoved": {
+    "message": "密钥已移除。"
+  },
+  "optionsPrivacy": {
+    "message": "只有在按下“保存”时，选中的文字和你输入的背面才会发送到 flashcards.gg。密钥只保存在此浏览器中。不收集分析数据。"
+  }
+}

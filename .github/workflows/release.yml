@@ -1,0 +1,44 @@
+# Tag v<version> → build all three browsers, zip, attach to a GitHub Release,
+# and (if the org secrets exist) upload the Chrome zip to the Web Store as a
+# DRAFT. Publishing is a manual click in the developer dashboard on purpose.
+name: Release
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Version must match the tag
+        run: |
+          v=$(node -p "require('./package.json').version")
+          [ "v$v" = "${GITHUB_REF_NAME}" ] || { echo "package.json is $v, tag is ${GITHUB_REF_NAME}"; exit 1; }
+      - run: npm run typecheck && npm test && npm run build && npm run lint
+      - run: npm run zip
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.zip
+          generate_release_notes: true
+      - name: Upload to the Chrome Web Store as a draft
+        if: ${{ env.CWS_CLIENT_ID != '' }}
+        env:
+          CWS_CLIENT_ID: ${{ secrets.CWS_CLIENT_ID }}
+          CWS_CLIENT_SECRET: ${{ secrets.CWS_CLIENT_SECRET }}
+          CWS_REFRESH_TOKEN: ${{ secrets.CWS_REFRESH_TOKEN }}
+          CWS_EXTENSION_ID: ${{ secrets.CWS_EXTENSION_ID }}
+        run: |
+          v=$(node -p "require('./package.json').version")
+          npx --yes chrome-webstore-upload-cli@3 upload \
+            --source "dist/flashcards-gg-chrome-$v.zip" \
+            --extension-id "$CWS_EXTENSION_ID" \
+            --client-id "$CWS_CLIENT_ID" \
+            --client-secret "$CWS_CLIENT_SECRET" \
+            --refresh-token "$CWS_REFRESH_TOKEN"

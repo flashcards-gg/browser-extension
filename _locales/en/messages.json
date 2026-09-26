@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "Add to Flashcards.gg"
+  },
+  "front": {
+    "message": "FRONT"
+  },
+  "back": {
+    "message": "BACK"
+  },
+  "save": {
+    "message": "Save"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "done": {
+    "message": "Done"
+  },
+  "newSet": {
+    "message": "New set"
+  },
+  "setNameHint": {
+    "message": "From reading"
+  },
+  "backHint": {
+    "message": "Type the back"
+  },
+  "swap": {
+    "message": "Swap sides"
+  },
+  "savedTo": {
+    "message": "Saved to $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "Already in $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "Back on that card:"
+  },
+  "addAnyway": {
+    "message": "Add anyway"
+  },
+  "addAnother": {
+    "message": "Add another"
+  },
+  "autoFillLabel": {
+    "message": "Auto"
+  },
+  "autoGenerating": {
+    "message": "Generating…"
+  },
+  "autoFillFailed": {
+    "message": "Couldn't fill the back — try again."
+  },
+  "autoSpecPromptTitle": {
+    "message": "What should each back be?"
+  },
+  "autoSpecPromptHint": {
+    "message": "e.g. Spanish translation"
+  },
+  "autoSpecUseThis": {
+    "message": "Use this"
+  },
+  "dailyLimitFillTitle": {
+    "message": "AI fill limit reached"
+  },
+  "extDescription": {
+    "message": "Add a card from selected text to your Flashcards.gg sets."
+  },
+  "set": {
+    "message": "Set"
+  },
+  "openInApp": {
+    "message": "Open in Flashcards.gg"
+  },
+  "noKeyTitle": {
+    "message": "Connect your account"
+  },
+  "noKeyBody": {
+    "message": "Paste an API key from flashcards.gg (Account › API keys) in the extension options. It stays in this browser."
+  },
+  "openOptions": {
+    "message": "Open options"
+  },
+  "errNetwork": {
+    "message": "Couldn’t reach flashcards.gg. Check your connection and try again."
+  },
+  "errAuth": {
+    "message": "The API key was not accepted. Create a new one at flashcards.gg (Account › API keys) and paste it in the options."
+  },
+  "errRate": {
+    "message": "Too many requests. Wait a minute and try again."
+  },
+  "errGeneric": {
+    "message": "Something went wrong. Try again."
+  },
+  "longHint": {
+    "message": "Long selection: it is saved as one card. To make several cards from it, use AI in the app."
+  },
+  "retry": {
+    "message": "Try again"
+  },
+  "loadingSets": {
+    "message": "Loading your sets…"
+  },
+  "optionsTitle": {
+    "message": "Flashcards.gg extension"
+  },
+  "optionsKeyLabel": {
+    "message": "API key"
+  },
+  "optionsKeyHelp": {
+    "message": "Create a key at flashcards.gg (Account › API keys) and paste it here. The key can create and edit all your sets; you can revoke it there at any time."
+  },
+  "optionsCreateKey": {
+    "message": "Create a key"
+  },
+  "optionsSave": {
+    "message": "Save key"
+  },
+  "optionsSaved": {
+    "message": "Key saved."
+  },
+  "optionsTest": {
+    "message": "Test connection"
+  },
+  "optionsOk": {
+    "message": "Connected. $N$ sets found.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "Remove key"
+  },
+  "optionsRemoved": {
+    "message": "Key removed."
+  },
+  "optionsPrivacy": {
+    "message": "The selected text and the back you type are sent to flashcards.gg only when you press Save. The key is stored in this browser only. No analytics."
+  }
+}

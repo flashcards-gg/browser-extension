@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "Добавить в Flashcards.gg"
+  },
+  "front": {
+    "message": "ЛИЦЕВАЯ"
+  },
+  "back": {
+    "message": "ОБРАТНАЯ"
+  },
+  "save": {
+    "message": "Сохранить"
+  },
+  "cancel": {
+    "message": "Отмена"
+  },
+  "done": {
+    "message": "Готово"
+  },
+  "newSet": {
+    "message": "Новый набор"
+  },
+  "setNameHint": {
+    "message": "Из чтения"
+  },
+  "backHint": {
+    "message": "Введите обратную сторону"
+  },
+  "swap": {
+    "message": "Поменять стороны"
+  },
+  "savedTo": {
+    "message": "Сохранено в набор $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "Уже есть в наборе $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "Обратная сторона той карточки:"
+  },
+  "addAnyway": {
+    "message": "Всё равно добавить"
+  },
+  "addAnother": {
+    "message": "Добавить ещё"
+  },
+  "autoFillLabel": {
+    "message": "Авто"
+  },
+  "autoGenerating": {
+    "message": "Генерация…"
+  },
+  "autoFillFailed": {
+    "message": "Не удалось заполнить оборот — попробуйте ещё раз."
+  },
+  "autoSpecPromptTitle": {
+    "message": "Что должно быть на обороте?"
+  },
+  "autoSpecPromptHint": {
+    "message": "напр. испанский перевод"
+  },
+  "autoSpecUseThis": {
+    "message": "Использовать"
+  },
+  "dailyLimitFillTitle": {
+    "message": "Достигнут лимит ИИ-заполнений"
+  },
+  "extDescription": {
+    "message": "Добавляйте карточки из выделенного текста в свои наборы Flashcards.gg."
+  },
+  "set": {
+    "message": "Набор"
+  },
+  "openInApp": {
+    "message": "Открыть в Flashcards.gg"
+  },
+  "noKeyTitle": {
+    "message": "Подключите аккаунт"
+  },
+  "noKeyBody": {
+    "message": "Вставьте API-ключ с flashcards.gg (Аккаунт › API-ключи) в настройках расширения. Он хранится только в этом браузере."
+  },
+  "openOptions": {
+    "message": "Открыть настройки"
+  },
+  "errNetwork": {
+    "message": "Не удалось связаться с flashcards.gg. Проверьте соединение и попробуйте снова."
+  },
+  "errAuth": {
+    "message": "API-ключ не принят. Создайте новый на flashcards.gg (Аккаунт › API-ключи) и вставьте его в настройках."
+  },
+  "errRate": {
+    "message": "Слишком много запросов. Подождите минуту и попробуйте снова."
+  },
+  "errGeneric": {
+    "message": "Что-то пошло не так. Попробуйте снова."
+  },
+  "longHint": {
+    "message": "Длинный фрагмент: он сохранится как одна карточка. Чтобы сделать из него несколько карточек, используйте ИИ в приложении."
+  },
+  "retry": {
+    "message": "Попробовать снова"
+  },
+  "loadingSets": {
+    "message": "Загрузка наборов…"
+  },
+  "optionsTitle": {
+    "message": "Расширение Flashcards.gg"
+  },
+  "optionsKeyLabel": {
+    "message": "API-ключ"
+  },
+  "optionsKeyHelp": {
+    "message": "Создайте ключ на flashcards.gg (Аккаунт › API-ключи) и вставьте его сюда. Ключ может создавать и редактировать все ваши наборы; его можно в любой момент отозвать там же."
+  },
+  "optionsCreateKey": {
+    "message": "Создать ключ"
+  },
+  "optionsSave": {
+    "message": "Сохранить ключ"
+  },
+  "optionsSaved": {
+    "message": "Ключ сохранён."
+  },
+  "optionsTest": {
+    "message": "Проверить соединение"
+  },
+  "optionsOk": {
+    "message": "Подключено. Найдено наборов: $N$.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "Удалить ключ"
+  },
+  "optionsRemoved": {
+    "message": "Ключ удалён."
+  },
+  "optionsPrivacy": {
+    "message": "Выделенный текст и введённая обратная сторона отправляются на flashcards.gg только после нажатия «Сохранить». Ключ хранится только в этом браузере. Без аналитики."
+  }
+}

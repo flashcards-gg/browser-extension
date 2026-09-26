@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "Προσθήκη στο Flashcards.gg"
+  },
+  "front": {
+    "message": "ΜΠΡΟΣΤΑ"
+  },
+  "back": {
+    "message": "ΠΙΣΩ"
+  },
+  "save": {
+    "message": "Αποθήκευση"
+  },
+  "cancel": {
+    "message": "Ακύρωση"
+  },
+  "done": {
+    "message": "Έτοιμο"
+  },
+  "newSet": {
+    "message": "Νέο σετ"
+  },
+  "setNameHint": {
+    "message": "Από ανάγνωση"
+  },
+  "backHint": {
+    "message": "Γράψτε την πίσω πλευρά"
+  },
+  "swap": {
+    "message": "Εναλλαγή πλευρών"
+  },
+  "savedTo": {
+    "message": "Αποθηκεύτηκε στο $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "Υπάρχει ήδη στο $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "Πίσω πλευρά εκείνης της κάρτας:"
+  },
+  "addAnyway": {
+    "message": "Προσθήκη ούτως ή άλλως"
+  },
+  "addAnother": {
+    "message": "Προσθήκη άλλης"
+  },
+  "autoFillLabel": {
+    "message": "Αυτόματα"
+  },
+  "autoGenerating": {
+    "message": "Δημιουργία…"
+  },
+  "autoFillFailed": {
+    "message": "Δεν ήταν δυνατή η συμπλήρωση — δοκιμάστε ξανά."
+  },
+  "autoSpecPromptTitle": {
+    "message": "Τι πρέπει να είναι η πίσω όψη;"
+  },
+  "autoSpecPromptHint": {
+    "message": "π.χ. ισπανική μετάφραση"
+  },
+  "autoSpecUseThis": {
+    "message": "Χρήση αυτού"
+  },
+  "dailyLimitFillTitle": {
+    "message": "Συμπληρώθηκε το όριο AI"
+  },
+  "extDescription": {
+    "message": "Προσθέστε κάρτες από επιλεγμένο κείμενο στα σετ σας στο Flashcards.gg."
+  },
+  "set": {
+    "message": "Σετ"
+  },
+  "openInApp": {
+    "message": "Άνοιγμα στο Flashcards.gg"
+  },
+  "noKeyTitle": {
+    "message": "Συνδέστε τον λογαριασμό σας"
+  },
+  "noKeyBody": {
+    "message": "Επικολλήστε ένα κλειδί API από το flashcards.gg (Λογαριασμός › Κλειδιά API) στις επιλογές της επέκτασης. Μένει σε αυτό το πρόγραμμα περιήγησης."
+  },
+  "openOptions": {
+    "message": "Άνοιγμα επιλογών"
+  },
+  "errNetwork": {
+    "message": "Δεν ήταν δυνατή η σύνδεση με το flashcards.gg. Ελέγξτε τη σύνδεση και δοκιμάστε ξανά."
+  },
+  "errAuth": {
+    "message": "Το κλειδί API δεν έγινε δεκτό. Δημιουργήστε νέο στο flashcards.gg (Λογαριασμός › Κλειδιά API) και επικολλήστε το στις επιλογές."
+  },
+  "errRate": {
+    "message": "Πάρα πολλά αιτήματα. Περιμένετε ένα λεπτό και δοκιμάστε ξανά."
+  },
+  "errGeneric": {
+    "message": "Κάτι πήγε στραβά. Δοκιμάστε ξανά."
+  },
+  "longHint": {
+    "message": "Μεγάλη επιλογή: αποθηκεύεται ως μία κάρτα. Για πολλές κάρτες, χρησιμοποιήστε την AI στην εφαρμογή."
+  },
+  "retry": {
+    "message": "Δοκιμάστε ξανά"
+  },
+  "loadingSets": {
+    "message": "Φόρτωση των σετ σας…"
+  },
+  "optionsTitle": {
+    "message": "Επέκταση Flashcards.gg"
+  },
+  "optionsKeyLabel": {
+    "message": "Κλειδί API"
+  },
+  "optionsKeyHelp": {
+    "message": "Δημιουργήστε ένα κλειδί στο flashcards.gg (Λογαριασμός › Κλειδιά API) και επικολλήστε το εδώ. Το κλειδί μπορεί να δημιουργεί και να επεξεργάζεται όλα τα σετ σας· μπορείτε να το ανακαλέσετε εκεί ανά πάσα στιγμή."
+  },
+  "optionsCreateKey": {
+    "message": "Δημιουργία κλειδιού"
+  },
+  "optionsSave": {
+    "message": "Αποθήκευση κλειδιού"
+  },
+  "optionsSaved": {
+    "message": "Το κλειδί αποθηκεύτηκε."
+  },
+  "optionsTest": {
+    "message": "Δοκιμή σύνδεσης"
+  },
+  "optionsOk": {
+    "message": "Συνδέθηκε. Βρέθηκαν $N$ σετ.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "Αφαίρεση κλειδιού"
+  },
+  "optionsRemoved": {
+    "message": "Το κλειδί αφαιρέθηκε."
+  },
+  "optionsPrivacy": {
+    "message": "Το επιλεγμένο κείμενο και η πίσω πλευρά που γράφετε στέλνονται στο flashcards.gg μόνο όταν πατήσετε Αποθήκευση. Το κλειδί αποθηκεύεται μόνο σε αυτό το πρόγραμμα περιήγησης. Χωρίς αναλυτικά στοιχεία."
+  }
+}

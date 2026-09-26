@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "إضافة إلى Flashcards.gg"
+  },
+  "front": {
+    "message": "الأمام"
+  },
+  "back": {
+    "message": "الخلف"
+  },
+  "save": {
+    "message": "حفظ"
+  },
+  "cancel": {
+    "message": "إلغاء"
+  },
+  "done": {
+    "message": "تم"
+  },
+  "newSet": {
+    "message": "مجموعة جديدة"
+  },
+  "setNameHint": {
+    "message": "من القراءة"
+  },
+  "backHint": {
+    "message": "اكتب الوجه الخلفي"
+  },
+  "swap": {
+    "message": "تبديل الوجهين"
+  },
+  "savedTo": {
+    "message": "تم الحفظ في $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "موجودة بالفعل في $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "الوجه الخلفي لتلك البطاقة:"
+  },
+  "addAnyway": {
+    "message": "إضافة على أي حال"
+  },
+  "addAnother": {
+    "message": "إضافة أخرى"
+  },
+  "autoFillLabel": {
+    "message": "تلقائي"
+  },
+  "autoGenerating": {
+    "message": "جارٍ الإنشاء…"
+  },
+  "autoFillFailed": {
+    "message": "تعذّرت تعبئة الوجه الخلفي — حاول مرة أخرى."
+  },
+  "autoSpecPromptTitle": {
+    "message": "ماذا يجب أن يكون الوجه الخلفي؟"
+  },
+  "autoSpecPromptHint": {
+    "message": "مثال: ترجمة إسبانية"
+  },
+  "autoSpecUseThis": {
+    "message": "استخدم هذا"
+  },
+  "dailyLimitFillTitle": {
+    "message": "تم بلوغ حد التعبئة بالذكاء الاصطناعي"
+  },
+  "extDescription": {
+    "message": "أضف بطاقات من النص المحدد إلى مجموعاتك في Flashcards.gg."
+  },
+  "set": {
+    "message": "المجموعة"
+  },
+  "openInApp": {
+    "message": "فتح في Flashcards.gg"
+  },
+  "noKeyTitle": {
+    "message": "اربط حسابك"
+  },
+  "noKeyBody": {
+    "message": "الصق مفتاح API من flashcards.gg (الحساب › مفاتيح API) في خيارات الإضافة. يبقى في هذا المتصفح."
+  },
+  "openOptions": {
+    "message": "فتح الخيارات"
+  },
+  "errNetwork": {
+    "message": "تعذّر الوصول إلى flashcards.gg. تحقق من الاتصال وحاول مجددًا."
+  },
+  "errAuth": {
+    "message": "لم يُقبل مفتاح API. أنشئ مفتاحًا جديدًا في flashcards.gg (الحساب › مفاتيح API) والصقه في الخيارات."
+  },
+  "errRate": {
+    "message": "طلبات كثيرة جدًا. انتظر دقيقة وحاول مجددًا."
+  },
+  "errGeneric": {
+    "message": "حدث خطأ ما. حاول مجددًا."
+  },
+  "longHint": {
+    "message": "تحديد طويل: يُحفظ كبطاقة واحدة. لإنشاء عدة بطاقات منه، استخدم الذكاء الاصطناعي في التطبيق."
+  },
+  "retry": {
+    "message": "حاول مجددًا"
+  },
+  "loadingSets": {
+    "message": "جارٍ تحميل مجموعاتك…"
+  },
+  "optionsTitle": {
+    "message": "إضافة Flashcards.gg"
+  },
+  "optionsKeyLabel": {
+    "message": "مفتاح API"
+  },
+  "optionsKeyHelp": {
+    "message": "أنشئ مفتاحًا في flashcards.gg (الحساب › مفاتيح API) والصقه هنا. يمكن للمفتاح إنشاء جميع مجموعاتك وتعديلها؛ ويمكنك إلغاؤه هناك في أي وقت."
+  },
+  "optionsCreateKey": {
+    "message": "إنشاء مفتاح"
+  },
+  "optionsSave": {
+    "message": "حفظ المفتاح"
+  },
+  "optionsSaved": {
+    "message": "تم حفظ المفتاح."
+  },
+  "optionsTest": {
+    "message": "اختبار الاتصال"
+  },
+  "optionsOk": {
+    "message": "متصل. عُثر على $N$ مجموعة.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "إزالة المفتاح"
+  },
+  "optionsRemoved": {
+    "message": "تمت إزالة المفتاح."
+  },
+  "optionsPrivacy": {
+    "message": "يُرسل النص المحدد والوجه الخلفي الذي تكتبه إلى flashcards.gg فقط عند الضغط على حفظ. يُحفظ المفتاح في هذا المتصفح فقط. لا تحليلات."
+  }
+}

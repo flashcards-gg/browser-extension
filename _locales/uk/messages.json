@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "Додати у Flashcards.gg"
+  },
+  "front": {
+    "message": "ПЕРЕД"
+  },
+  "back": {
+    "message": "ЗАД"
+  },
+  "save": {
+    "message": "Зберегти"
+  },
+  "cancel": {
+    "message": "Скасувати"
+  },
+  "done": {
+    "message": "Готово"
+  },
+  "newSet": {
+    "message": "Новий набір"
+  },
+  "setNameHint": {
+    "message": "З читання"
+  },
+  "backHint": {
+    "message": "Введіть зворотну сторону"
+  },
+  "swap": {
+    "message": "Поміняти сторони"
+  },
+  "savedTo": {
+    "message": "Збережено в набір $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "Уже є в наборі $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "Зворотна сторона тієї картки:"
+  },
+  "addAnyway": {
+    "message": "Додати все одно"
+  },
+  "addAnother": {
+    "message": "Додати ще"
+  },
+  "autoFillLabel": {
+    "message": "Авто"
+  },
+  "autoGenerating": {
+    "message": "Генерування…"
+  },
+  "autoFillFailed": {
+    "message": "Не вдалося заповнити зворот — спробуйте ще раз."
+  },
+  "autoSpecPromptTitle": {
+    "message": "Що має бути на звороті?"
+  },
+  "autoSpecPromptHint": {
+    "message": "напр. іспанський переклад"
+  },
+  "autoSpecUseThis": {
+    "message": "Використати"
+  },
+  "dailyLimitFillTitle": {
+    "message": "Досягнуто ліміт AI-заповнень"
+  },
+  "extDescription": {
+    "message": "Додавайте картки з виділеного тексту у свої набори Flashcards.gg."
+  },
+  "set": {
+    "message": "Набір"
+  },
+  "openInApp": {
+    "message": "Відкрити у Flashcards.gg"
+  },
+  "noKeyTitle": {
+    "message": "Підключіть акаунт"
+  },
+  "noKeyBody": {
+    "message": "Вставте API-ключ із flashcards.gg (Акаунт › API-ключі) у налаштуваннях розширення. Він зберігається лише в цьому браузері."
+  },
+  "openOptions": {
+    "message": "Відкрити налаштування"
+  },
+  "errNetwork": {
+    "message": "Не вдалося з’єднатися з flashcards.gg. Перевірте з’єднання і спробуйте ще раз."
+  },
+  "errAuth": {
+    "message": "API-ключ не прийнято. Створіть новий на flashcards.gg (Акаунт › API-ключі) і вставте його в налаштуваннях."
+  },
+  "errRate": {
+    "message": "Забагато запитів. Зачекайте хвилину і спробуйте ще раз."
+  },
+  "errGeneric": {
+    "message": "Щось пішло не так. Спробуйте ще раз."
+  },
+  "longHint": {
+    "message": "Довгий фрагмент: він збережеться як одна картка. Щоб зробити з нього кілька карток, скористайтеся ШІ в застосунку."
+  },
+  "retry": {
+    "message": "Спробувати ще раз"
+  },
+  "loadingSets": {
+    "message": "Завантаження наборів…"
+  },
+  "optionsTitle": {
+    "message": "Розширення Flashcards.gg"
+  },
+  "optionsKeyLabel": {
+    "message": "API-ключ"
+  },
+  "optionsKeyHelp": {
+    "message": "Створіть ключ на flashcards.gg (Акаунт › API-ключі) і вставте його сюди. Ключ може створювати й редагувати всі ваші набори; його можна будь-коли відкликати там само."
+  },
+  "optionsCreateKey": {
+    "message": "Створити ключ"
+  },
+  "optionsSave": {
+    "message": "Зберегти ключ"
+  },
+  "optionsSaved": {
+    "message": "Ключ збережено."
+  },
+  "optionsTest": {
+    "message": "Перевірити з’єднання"
+  },
+  "optionsOk": {
+    "message": "З’єднано. Знайдено наборів: $N$.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "Видалити ключ"
+  },
+  "optionsRemoved": {
+    "message": "Ключ видалено."
+  },
+  "optionsPrivacy": {
+    "message": "Виділений текст і введена зворотна сторона надсилаються на flashcards.gg лише після натискання «Зберегти». Ключ зберігається тільки в цьому браузері. Без аналітики."
+  }
+}

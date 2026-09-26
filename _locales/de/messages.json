@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "Zu Flashcards.gg hinzufügen"
+  },
+  "front": {
+    "message": "VORDERSEITE"
+  },
+  "back": {
+    "message": "RÜCKSEITE"
+  },
+  "save": {
+    "message": "Speichern"
+  },
+  "cancel": {
+    "message": "Abbrechen"
+  },
+  "done": {
+    "message": "Fertig"
+  },
+  "newSet": {
+    "message": "Neues Set"
+  },
+  "setNameHint": {
+    "message": "Gelesenes"
+  },
+  "backHint": {
+    "message": "Rückseite eingeben"
+  },
+  "swap": {
+    "message": "Seiten tauschen"
+  },
+  "savedTo": {
+    "message": "Gespeichert in $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "Bereits in $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "Rückseite dieser Karte:"
+  },
+  "addAnyway": {
+    "message": "Trotzdem hinzufügen"
+  },
+  "addAnother": {
+    "message": "Noch eine hinzufügen"
+  },
+  "autoFillLabel": {
+    "message": "Auto"
+  },
+  "autoGenerating": {
+    "message": "Wird generiert…"
+  },
+  "autoFillFailed": {
+    "message": "Rückseite konnte nicht ausgefüllt werden — versuch es erneut."
+  },
+  "autoSpecPromptTitle": {
+    "message": "Was soll die Rückseite sein?"
+  },
+  "autoSpecPromptHint": {
+    "message": "z. B. spanische Übersetzung"
+  },
+  "autoSpecUseThis": {
+    "message": "Übernehmen"
+  },
+  "dailyLimitFillTitle": {
+    "message": "KI-Ausfülllimit erreicht"
+  },
+  "extDescription": {
+    "message": "Karten aus markiertem Text in deine Flashcards.gg-Sets aufnehmen."
+  },
+  "set": {
+    "message": "Set"
+  },
+  "openInApp": {
+    "message": "In Flashcards.gg öffnen"
+  },
+  "noKeyTitle": {
+    "message": "Konto verbinden"
+  },
+  "noKeyBody": {
+    "message": "Füge in den Optionen der Erweiterung einen API-Schlüssel von flashcards.gg (Konto › API-Schlüssel) ein. Er bleibt in diesem Browser."
+  },
+  "openOptions": {
+    "message": "Optionen öffnen"
+  },
+  "errNetwork": {
+    "message": "flashcards.gg ist nicht erreichbar. Prüfe die Verbindung und versuche es erneut."
+  },
+  "errAuth": {
+    "message": "Der API-Schlüssel wurde nicht akzeptiert. Erstelle auf flashcards.gg (Konto › API-Schlüssel) einen neuen und füge ihn in den Optionen ein."
+  },
+  "errRate": {
+    "message": "Zu viele Anfragen. Warte eine Minute und versuche es erneut."
+  },
+  "errGeneric": {
+    "message": "Etwas ist schiefgelaufen. Versuche es erneut."
+  },
+  "longHint": {
+    "message": "Lange Auswahl: sie wird als eine Karte gespeichert. Mehrere Karten daraus erstellt die KI in der App."
+  },
+  "retry": {
+    "message": "Erneut versuchen"
+  },
+  "loadingSets": {
+    "message": "Sets werden geladen …"
+  },
+  "optionsTitle": {
+    "message": "Flashcards.gg-Erweiterung"
+  },
+  "optionsKeyLabel": {
+    "message": "API-Schlüssel"
+  },
+  "optionsKeyHelp": {
+    "message": "Erstelle auf flashcards.gg (Konto › API-Schlüssel) einen Schlüssel und füge ihn hier ein. Der Schlüssel kann alle deine Sets anlegen und bearbeiten; du kannst ihn dort jederzeit widerrufen."
+  },
+  "optionsCreateKey": {
+    "message": "Schlüssel erstellen"
+  },
+  "optionsSave": {
+    "message": "Schlüssel speichern"
+  },
+  "optionsSaved": {
+    "message": "Schlüssel gespeichert."
+  },
+  "optionsTest": {
+    "message": "Verbindung testen"
+  },
+  "optionsOk": {
+    "message": "Verbunden. $N$ Sets gefunden.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "Schlüssel entfernen"
+  },
+  "optionsRemoved": {
+    "message": "Schlüssel entfernt."
+  },
+  "optionsPrivacy": {
+    "message": "Der markierte Text und die eingegebene Rückseite werden erst beim Speichern an flashcards.gg gesendet. Der Schlüssel bleibt nur in diesem Browser. Keine Analytik."
+  }
+}

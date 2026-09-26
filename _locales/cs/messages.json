@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "Přidat do Flashcards.gg"
+  },
+  "front": {
+    "message": "PŘEDNÍ"
+  },
+  "back": {
+    "message": "ZADNÍ"
+  },
+  "save": {
+    "message": "Uložit"
+  },
+  "cancel": {
+    "message": "Zrušit"
+  },
+  "done": {
+    "message": "Hotovo"
+  },
+  "newSet": {
+    "message": "Nová sada"
+  },
+  "setNameHint": {
+    "message": "Z četby"
+  },
+  "backHint": {
+    "message": "Napište zadní stranu"
+  },
+  "swap": {
+    "message": "Prohodit strany"
+  },
+  "savedTo": {
+    "message": "Uloženo do sady $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "Už je v sadě $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "Zadní strana té kartičky:"
+  },
+  "addAnyway": {
+    "message": "Přesto přidat"
+  },
+  "addAnother": {
+    "message": "Přidat další"
+  },
+  "autoFillLabel": {
+    "message": "Auto"
+  },
+  "autoGenerating": {
+    "message": "Generuji…"
+  },
+  "autoFillFailed": {
+    "message": "Zadní stranu se nepodařilo vyplnit — zkuste to znovu."
+  },
+  "autoSpecPromptTitle": {
+    "message": "Co má být na zadní straně?"
+  },
+  "autoSpecPromptHint": {
+    "message": "např. španělský překlad"
+  },
+  "autoSpecUseThis": {
+    "message": "Použít"
+  },
+  "dailyLimitFillTitle": {
+    "message": "Dosažen denní limit AI vyplnění"
+  },
+  "extDescription": {
+    "message": "Přidávejte kartičky z vybraného textu do svých sad na Flashcards.gg."
+  },
+  "set": {
+    "message": "Sada"
+  },
+  "openInApp": {
+    "message": "Otevřít ve Flashcards.gg"
+  },
+  "noKeyTitle": {
+    "message": "Připojte účet"
+  },
+  "noKeyBody": {
+    "message": "Vložte API klíč z flashcards.gg (Účet › API klíče) do nastavení rozšíření. Zůstává v tomto prohlížeči."
+  },
+  "openOptions": {
+    "message": "Otevřít nastavení"
+  },
+  "errNetwork": {
+    "message": "Nepodařilo se spojit s flashcards.gg. Zkontrolujte připojení a zkuste to znovu."
+  },
+  "errAuth": {
+    "message": "API klíč nebyl přijat. Vytvořte nový na flashcards.gg (Účet › API klíče) a vložte ho do nastavení."
+  },
+  "errRate": {
+    "message": "Příliš mnoho požadavků. Počkejte minutu a zkuste to znovu."
+  },
+  "errGeneric": {
+    "message": "Něco se pokazilo. Zkuste to znovu."
+  },
+  "longHint": {
+    "message": "Dlouhý výběr: uloží se jako jedna kartička. Několik kartiček z něj vytvoří AI v aplikaci."
+  },
+  "retry": {
+    "message": "Zkusit znovu"
+  },
+  "loadingSets": {
+    "message": "Načítání sad…"
+  },
+  "optionsTitle": {
+    "message": "Rozšíření Flashcards.gg"
+  },
+  "optionsKeyLabel": {
+    "message": "API klíč"
+  },
+  "optionsKeyHelp": {
+    "message": "Vytvořte klíč na flashcards.gg (Účet › API klíče) a vložte ho sem. Klíč může vytvářet a upravovat všechny vaše sady; kdykoli ho tam můžete odvolat."
+  },
+  "optionsCreateKey": {
+    "message": "Vytvořit klíč"
+  },
+  "optionsSave": {
+    "message": "Uložit klíč"
+  },
+  "optionsSaved": {
+    "message": "Klíč uložen."
+  },
+  "optionsTest": {
+    "message": "Otestovat připojení"
+  },
+  "optionsOk": {
+    "message": "Připojeno. Nalezeno sad: $N$.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "Odebrat klíč"
+  },
+  "optionsRemoved": {
+    "message": "Klíč odebrán."
+  },
+  "optionsPrivacy": {
+    "message": "Vybraný text a zadaná zadní strana se odesílají na flashcards.gg až po stisknutí Uložit. Klíč je uložen jen v tomto prohlížeči. Bez analytiky."
+  }
+}

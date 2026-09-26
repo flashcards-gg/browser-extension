@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "Flashcards.ggに追加"
+  },
+  "front": {
+    "message": "表面"
+  },
+  "back": {
+    "message": "裏面"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "cancel": {
+    "message": "キャンセル"
+  },
+  "done": {
+    "message": "完了"
+  },
+  "newSet": {
+    "message": "新しいセット"
+  },
+  "setNameHint": {
+    "message": "読書から"
+  },
+  "backHint": {
+    "message": "裏面を入力"
+  },
+  "swap": {
+    "message": "表裏を入れ替える"
+  },
+  "savedTo": {
+    "message": "$SET$ に保存しました",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "$SET$ にすでにあります",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "そのカードの裏面:"
+  },
+  "addAnyway": {
+    "message": "それでも追加"
+  },
+  "addAnother": {
+    "message": "もう1枚追加"
+  },
+  "autoFillLabel": {
+    "message": "自動"
+  },
+  "autoGenerating": {
+    "message": "生成中…"
+  },
+  "autoFillFailed": {
+    "message": "裏面を入力できませんでした — もう一度お試しください。"
+  },
+  "autoSpecPromptTitle": {
+    "message": "裏面には何を入れますか？"
+  },
+  "autoSpecPromptHint": {
+    "message": "例: スペイン語訳"
+  },
+  "autoSpecUseThis": {
+    "message": "これを使う"
+  },
+  "dailyLimitFillTitle": {
+    "message": "AI入力の上限に達しました"
+  },
+  "extDescription": {
+    "message": "選択したテキストからFlashcards.ggのセットにカードを追加します。"
+  },
+  "set": {
+    "message": "セット"
+  },
+  "openInApp": {
+    "message": "Flashcards.ggで開く"
+  },
+  "noKeyTitle": {
+    "message": "アカウントを接続"
+  },
+  "noKeyBody": {
+    "message": "flashcards.gg（アカウント › APIキー）のAPIキーを拡張機能のオプションに貼り付けてください。キーはこのブラウザにのみ保存されます。"
+  },
+  "openOptions": {
+    "message": "オプションを開く"
+  },
+  "errNetwork": {
+    "message": "flashcards.ggに接続できません。接続を確認してもう一度お試しください。"
+  },
+  "errAuth": {
+    "message": "APIキーが受け付けられませんでした。flashcards.gg（アカウント › APIキー）で新しいキーを作成し、オプションに貼り付けてください。"
+  },
+  "errRate": {
+    "message": "リクエストが多すぎます。1分待ってからもう一度お試しください。"
+  },
+  "errGeneric": {
+    "message": "問題が発生しました。もう一度お試しください。"
+  },
+  "longHint": {
+    "message": "選択範囲が長いため、1枚のカードとして保存されます。複数のカードにするにはアプリのAIをお使いください。"
+  },
+  "retry": {
+    "message": "もう一度試す"
+  },
+  "loadingSets": {
+    "message": "セットを読み込み中…"
+  },
+  "optionsTitle": {
+    "message": "Flashcards.gg拡張機能"
+  },
+  "optionsKeyLabel": {
+    "message": "APIキー"
+  },
+  "optionsKeyHelp": {
+    "message": "flashcards.gg（アカウント › APIキー）でキーを作成し、ここに貼り付けてください。キーはすべてのセットを作成・編集できます。同じ場所でいつでも無効化できます。"
+  },
+  "optionsCreateKey": {
+    "message": "キーを作成"
+  },
+  "optionsSave": {
+    "message": "キーを保存"
+  },
+  "optionsSaved": {
+    "message": "キーを保存しました。"
+  },
+  "optionsTest": {
+    "message": "接続をテスト"
+  },
+  "optionsOk": {
+    "message": "接続しました。$N$個のセットが見つかりました。",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "キーを削除"
+  },
+  "optionsRemoved": {
+    "message": "キーを削除しました。"
+  },
+  "optionsPrivacy": {
+    "message": "選択したテキストと入力した裏面は、保存を押したときにのみflashcards.ggへ送信されます。キーはこのブラウザにのみ保存されます。分析データは収集しません。"
+  }
+}

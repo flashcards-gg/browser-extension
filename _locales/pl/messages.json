@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "Dodaj do Flashcards.gg"
+  },
+  "front": {
+    "message": "PRZÓD"
+  },
+  "back": {
+    "message": "TYŁ"
+  },
+  "save": {
+    "message": "Zapisz"
+  },
+  "cancel": {
+    "message": "Anuluj"
+  },
+  "done": {
+    "message": "Gotowe"
+  },
+  "newSet": {
+    "message": "Nowy zestaw"
+  },
+  "setNameHint": {
+    "message": "Z lektury"
+  },
+  "backHint": {
+    "message": "Wpisz tył"
+  },
+  "swap": {
+    "message": "Zamień strony"
+  },
+  "savedTo": {
+    "message": "Zapisano w zestawie $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "Już jest w zestawie $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "Tył tamtej karty:"
+  },
+  "addAnyway": {
+    "message": "Dodaj mimo to"
+  },
+  "addAnother": {
+    "message": "Dodaj kolejną"
+  },
+  "autoFillLabel": {
+    "message": "Auto"
+  },
+  "autoGenerating": {
+    "message": "Generowanie…"
+  },
+  "autoFillFailed": {
+    "message": "Nie udało się uzupełnić tyłu — spróbuj ponownie."
+  },
+  "autoSpecPromptTitle": {
+    "message": "Co ma być na tyle?"
+  },
+  "autoSpecPromptHint": {
+    "message": "np. tłumaczenie hiszpańskie"
+  },
+  "autoSpecUseThis": {
+    "message": "Użyj tego"
+  },
+  "dailyLimitFillTitle": {
+    "message": "Osiągnięto limit uzupełnień AI"
+  },
+  "extDescription": {
+    "message": "Dodawaj karty z zaznaczonego tekstu do swoich zestawów Flashcards.gg."
+  },
+  "set": {
+    "message": "Zestaw"
+  },
+  "openInApp": {
+    "message": "Otwórz w Flashcards.gg"
+  },
+  "noKeyTitle": {
+    "message": "Połącz konto"
+  },
+  "noKeyBody": {
+    "message": "Wklej klucz API z flashcards.gg (Konto › Klucze API) w opcjach rozszerzenia. Zostaje w tej przeglądarce."
+  },
+  "openOptions": {
+    "message": "Otwórz opcje"
+  },
+  "errNetwork": {
+    "message": "Nie udało się połączyć z flashcards.gg. Sprawdź połączenie i spróbuj ponownie."
+  },
+  "errAuth": {
+    "message": "Klucz API nie został przyjęty. Utwórz nowy na flashcards.gg (Konto › Klucze API) i wklej go w opcjach."
+  },
+  "errRate": {
+    "message": "Zbyt wiele żądań. Odczekaj minutę i spróbuj ponownie."
+  },
+  "errGeneric": {
+    "message": "Coś poszło nie tak. Spróbuj ponownie."
+  },
+  "longHint": {
+    "message": "Długie zaznaczenie: zostanie zapisane jako jedna karta. Aby utworzyć kilka kart, użyj AI w aplikacji."
+  },
+  "retry": {
+    "message": "Spróbuj ponownie"
+  },
+  "loadingSets": {
+    "message": "Wczytywanie zestawów…"
+  },
+  "optionsTitle": {
+    "message": "Rozszerzenie Flashcards.gg"
+  },
+  "optionsKeyLabel": {
+    "message": "Klucz API"
+  },
+  "optionsKeyHelp": {
+    "message": "Utwórz klucz na flashcards.gg (Konto › Klucze API) i wklej go tutaj. Klucz może tworzyć i edytować wszystkie Twoje zestawy; w każdej chwili możesz go tam odwołać."
+  },
+  "optionsCreateKey": {
+    "message": "Utwórz klucz"
+  },
+  "optionsSave": {
+    "message": "Zapisz klucz"
+  },
+  "optionsSaved": {
+    "message": "Klucz zapisany."
+  },
+  "optionsTest": {
+    "message": "Sprawdź połączenie"
+  },
+  "optionsOk": {
+    "message": "Połączono. Znaleziono zestawów: $N$.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "Usuń klucz"
+  },
+  "optionsRemoved": {
+    "message": "Klucz usunięty."
+  },
+  "optionsPrivacy": {
+    "message": "Zaznaczony tekst i wpisany tył są wysyłane do flashcards.gg tylko po naciśnięciu Zapisz. Klucz jest przechowywany tylko w tej przeglądarce. Bez analityki."
+  }
+}

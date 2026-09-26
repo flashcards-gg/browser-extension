@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "Adaugă în Flashcards.gg"
+  },
+  "front": {
+    "message": "FATA"
+  },
+  "back": {
+    "message": "VERSO"
+  },
+  "save": {
+    "message": "Salveaza"
+  },
+  "cancel": {
+    "message": "Anuleaza"
+  },
+  "done": {
+    "message": "Gata"
+  },
+  "newSet": {
+    "message": "Set nou"
+  },
+  "setNameHint": {
+    "message": "Din lectură"
+  },
+  "backHint": {
+    "message": "Scrie versoul"
+  },
+  "swap": {
+    "message": "Schimbă fețele"
+  },
+  "savedTo": {
+    "message": "Salvat în $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "Există deja în $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "Versoul acelui card:"
+  },
+  "addAnyway": {
+    "message": "Adaugă oricum"
+  },
+  "addAnother": {
+    "message": "Adaugă altul"
+  },
+  "autoFillLabel": {
+    "message": "Auto"
+  },
+  "autoGenerating": {
+    "message": "Se generează…"
+  },
+  "autoFillFailed": {
+    "message": "Spatele nu a putut fi completat — încearcă din nou."
+  },
+  "autoSpecPromptTitle": {
+    "message": "Ce trebuie să fie pe spate?"
+  },
+  "autoSpecPromptHint": {
+    "message": "ex.: traducere spaniolă"
+  },
+  "autoSpecUseThis": {
+    "message": "Folosește"
+  },
+  "dailyLimitFillTitle": {
+    "message": "Limita de completare IA atinsă"
+  },
+  "extDescription": {
+    "message": "Adaugă carduri din textul selectat în seturile tale Flashcards.gg."
+  },
+  "set": {
+    "message": "Set"
+  },
+  "openInApp": {
+    "message": "Deschide în Flashcards.gg"
+  },
+  "noKeyTitle": {
+    "message": "Conectează-ți contul"
+  },
+  "noKeyBody": {
+    "message": "Lipește o cheie API de pe flashcards.gg (Cont › Chei API) în opțiunile extensiei. Rămâne în acest browser."
+  },
+  "openOptions": {
+    "message": "Deschide opțiunile"
+  },
+  "errNetwork": {
+    "message": "Nu s-a putut contacta flashcards.gg. Verifică conexiunea și încearcă din nou."
+  },
+  "errAuth": {
+    "message": "Cheia API nu a fost acceptată. Creează una nouă pe flashcards.gg (Cont › Chei API) și lipește-o în opțiuni."
+  },
+  "errRate": {
+    "message": "Prea multe cereri. Așteaptă un minut și încearcă din nou."
+  },
+  "errGeneric": {
+    "message": "Ceva n-a mers. Încearcă din nou."
+  },
+  "longHint": {
+    "message": "Selecție lungă: se salvează ca un singur card. Pentru mai multe carduri, folosește AI-ul din aplicație."
+  },
+  "retry": {
+    "message": "Încearcă din nou"
+  },
+  "loadingSets": {
+    "message": "Se încarcă seturile…"
+  },
+  "optionsTitle": {
+    "message": "Extensia Flashcards.gg"
+  },
+  "optionsKeyLabel": {
+    "message": "Cheie API"
+  },
+  "optionsKeyHelp": {
+    "message": "Creează o cheie pe flashcards.gg (Cont › Chei API) și lipește-o aici. Cheia poate crea și edita toate seturile tale; o poți revoca acolo oricând."
+  },
+  "optionsCreateKey": {
+    "message": "Creează o cheie"
+  },
+  "optionsSave": {
+    "message": "Salvează cheia"
+  },
+  "optionsSaved": {
+    "message": "Cheie salvată."
+  },
+  "optionsTest": {
+    "message": "Testează conexiunea"
+  },
+  "optionsOk": {
+    "message": "Conectat. $N$ seturi găsite.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "Elimină cheia"
+  },
+  "optionsRemoved": {
+    "message": "Cheie eliminată."
+  },
+  "optionsPrivacy": {
+    "message": "Textul selectat și versoul scris sunt trimise la flashcards.gg doar când apeși Salvează. Cheia este păstrată doar în acest browser. Fără analitice."
+  }
+}

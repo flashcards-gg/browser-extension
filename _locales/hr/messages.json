@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "Dodaj u Flashcards.gg"
+  },
+  "front": {
+    "message": "PREDNJA"
+  },
+  "back": {
+    "message": "POLEĐINA"
+  },
+  "save": {
+    "message": "Spremi"
+  },
+  "cancel": {
+    "message": "Odustani"
+  },
+  "done": {
+    "message": "Gotovo"
+  },
+  "newSet": {
+    "message": "Novi set"
+  },
+  "setNameHint": {
+    "message": "Iz čitanja"
+  },
+  "backHint": {
+    "message": "Upiši poleđinu"
+  },
+  "swap": {
+    "message": "Zamijeni strane"
+  },
+  "savedTo": {
+    "message": "Spremljeno u $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "Već je u setu $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "Poleđina te kartice:"
+  },
+  "addAnyway": {
+    "message": "Svejedno dodaj"
+  },
+  "addAnother": {
+    "message": "Dodaj još jednu"
+  },
+  "autoFillLabel": {
+    "message": "Auto"
+  },
+  "autoGenerating": {
+    "message": "Generiranje…"
+  },
+  "autoFillFailed": {
+    "message": "Poleđinu nije bilo moguće popuniti. Pokušaj ponovno."
+  },
+  "autoSpecPromptTitle": {
+    "message": "Što treba biti na svakoj poleđini?"
+  },
+  "autoSpecPromptHint": {
+    "message": "npr. prijevod na španjolski"
+  },
+  "autoSpecUseThis": {
+    "message": "Koristi ovo"
+  },
+  "dailyLimitFillTitle": {
+    "message": "Dosegnut limit AI popunjavanja"
+  },
+  "extDescription": {
+    "message": "Dodajte kartice iz označenog teksta u svoje Flashcards.gg setove."
+  },
+  "set": {
+    "message": "Set"
+  },
+  "openInApp": {
+    "message": "Otvori u Flashcards.gg"
+  },
+  "noKeyTitle": {
+    "message": "Povežite račun"
+  },
+  "noKeyBody": {
+    "message": "Zalijepite API ključ s flashcards.gg (Račun › API ključevi) u postavke proširenja. Ostaje u ovom pregledniku."
+  },
+  "openOptions": {
+    "message": "Otvori postavke"
+  },
+  "errNetwork": {
+    "message": "Nije moguće doći do flashcards.gg. Provjerite vezu i pokušajte ponovno."
+  },
+  "errAuth": {
+    "message": "API ključ nije prihvaćen. Napravite novi na flashcards.gg (Račun › API ključevi) i zalijepite ga u postavke."
+  },
+  "errRate": {
+    "message": "Previše zahtjeva. Pričekajte minutu i pokušajte ponovno."
+  },
+  "errGeneric": {
+    "message": "Nešto je pošlo po zlu. Pokušajte ponovno."
+  },
+  "longHint": {
+    "message": "Dug odabir: sprema se kao jedna kartica. Više kartica iz njega napravite s AI-jem u aplikaciji."
+  },
+  "retry": {
+    "message": "Pokušaj ponovno"
+  },
+  "loadingSets": {
+    "message": "Učitavanje setova…"
+  },
+  "optionsTitle": {
+    "message": "Flashcards.gg proširenje"
+  },
+  "optionsKeyLabel": {
+    "message": "API ključ"
+  },
+  "optionsKeyHelp": {
+    "message": "Napravite ključ na flashcards.gg (Račun › API ključevi) i zalijepite ga ovdje. Ključ može stvarati i uređivati sve vaše setove; ondje ga možete opozvati u bilo kojem trenutku."
+  },
+  "optionsCreateKey": {
+    "message": "Napravi ključ"
+  },
+  "optionsSave": {
+    "message": "Spremi ključ"
+  },
+  "optionsSaved": {
+    "message": "Ključ spremljen."
+  },
+  "optionsTest": {
+    "message": "Testiraj vezu"
+  },
+  "optionsOk": {
+    "message": "Povezano. Pronađeno setova: $N$.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "Ukloni ključ"
+  },
+  "optionsRemoved": {
+    "message": "Ključ uklonjen."
+  },
+  "optionsPrivacy": {
+    "message": "Označeni tekst i upisana poleđina šalju se na flashcards.gg tek kad pritisnete Spremi. Ključ se čuva samo u ovom pregledniku. Bez analitike."
+  }
+}

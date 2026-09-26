@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "Thêm vào Flashcards.gg"
+  },
+  "front": {
+    "message": "MAT TRUOC"
+  },
+  "back": {
+    "message": "MAT SAU"
+  },
+  "save": {
+    "message": "Luu"
+  },
+  "cancel": {
+    "message": "Huy"
+  },
+  "done": {
+    "message": "Xong"
+  },
+  "newSet": {
+    "message": "Bộ mới"
+  },
+  "setNameHint": {
+    "message": "Từ bài đọc"
+  },
+  "backHint": {
+    "message": "Nhập mặt sau"
+  },
+  "swap": {
+    "message": "Đổi mặt"
+  },
+  "savedTo": {
+    "message": "Đã lưu vào $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "Đã có trong $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "Mặt sau của thẻ đó:"
+  },
+  "addAnyway": {
+    "message": "Vẫn thêm"
+  },
+  "addAnother": {
+    "message": "Thêm thẻ khác"
+  },
+  "autoFillLabel": {
+    "message": "Tự động"
+  },
+  "autoGenerating": {
+    "message": "Đang tạo…"
+  },
+  "autoFillFailed": {
+    "message": "Không thể điền mặt sau — thử lại."
+  },
+  "autoSpecPromptTitle": {
+    "message": "Mặt sau nên là gì?"
+  },
+  "autoSpecPromptHint": {
+    "message": "vd: bản dịch tiếng Tây Ban Nha"
+  },
+  "autoSpecUseThis": {
+    "message": "Dùng cái này"
+  },
+  "dailyLimitFillTitle": {
+    "message": "Đã đạt giới hạn điền bằng AI"
+  },
+  "extDescription": {
+    "message": "Thêm thẻ từ văn bản đã chọn vào các bộ Flashcards.gg của bạn."
+  },
+  "set": {
+    "message": "Bộ"
+  },
+  "openInApp": {
+    "message": "Mở trong Flashcards.gg"
+  },
+  "noKeyTitle": {
+    "message": "Kết nối tài khoản"
+  },
+  "noKeyBody": {
+    "message": "Dán khóa API từ flashcards.gg (Tài khoản › Khóa API) vào tùy chọn của tiện ích. Khóa chỉ lưu trong trình duyệt này."
+  },
+  "openOptions": {
+    "message": "Mở tùy chọn"
+  },
+  "errNetwork": {
+    "message": "Không kết nối được với flashcards.gg. Kiểm tra kết nối và thử lại."
+  },
+  "errAuth": {
+    "message": "Khóa API không được chấp nhận. Tạo khóa mới tại flashcards.gg (Tài khoản › Khóa API) và dán vào tùy chọn."
+  },
+  "errRate": {
+    "message": "Quá nhiều yêu cầu. Chờ một phút rồi thử lại."
+  },
+  "errGeneric": {
+    "message": "Đã xảy ra lỗi. Thử lại."
+  },
+  "longHint": {
+    "message": "Đoạn chọn dài: sẽ được lưu thành một thẻ. Để tạo nhiều thẻ, hãy dùng AI trong ứng dụng."
+  },
+  "retry": {
+    "message": "Thử lại"
+  },
+  "loadingSets": {
+    "message": "Đang tải các bộ của bạn…"
+  },
+  "optionsTitle": {
+    "message": "Tiện ích Flashcards.gg"
+  },
+  "optionsKeyLabel": {
+    "message": "Khóa API"
+  },
+  "optionsKeyHelp": {
+    "message": "Tạo khóa tại flashcards.gg (Tài khoản › Khóa API) và dán vào đây. Khóa có thể tạo và chỉnh sửa mọi bộ của bạn; bạn có thể thu hồi ở đó bất cứ lúc nào."
+  },
+  "optionsCreateKey": {
+    "message": "Tạo khóa"
+  },
+  "optionsSave": {
+    "message": "Lưu khóa"
+  },
+  "optionsSaved": {
+    "message": "Đã lưu khóa."
+  },
+  "optionsTest": {
+    "message": "Kiểm tra kết nối"
+  },
+  "optionsOk": {
+    "message": "Đã kết nối. Tìm thấy $N$ bộ.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "Xóa khóa"
+  },
+  "optionsRemoved": {
+    "message": "Đã xóa khóa."
+  },
+  "optionsPrivacy": {
+    "message": "Văn bản đã chọn và mặt sau bạn nhập chỉ được gửi tới flashcards.gg khi bạn nhấn Lưu. Khóa chỉ được lưu trong trình duyệt này. Không có phân tích."
+  }
+}

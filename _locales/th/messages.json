@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "เพิ่มลงใน Flashcards.gg"
+  },
+  "front": {
+    "message": "ด้านหน้า"
+  },
+  "back": {
+    "message": "ด้านหลัง"
+  },
+  "save": {
+    "message": "บันทึก"
+  },
+  "cancel": {
+    "message": "ยกเลิก"
+  },
+  "done": {
+    "message": "เสร็จสิ้น"
+  },
+  "newSet": {
+    "message": "ชุดใหม่"
+  },
+  "setNameHint": {
+    "message": "จากการอ่าน"
+  },
+  "backHint": {
+    "message": "พิมพ์ด้านหลัง"
+  },
+  "swap": {
+    "message": "สลับด้าน"
+  },
+  "savedTo": {
+    "message": "บันทึกลงใน $SET$ แล้ว",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "มีอยู่แล้วใน $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "ด้านหลังของการ์ดใบนั้น:"
+  },
+  "addAnyway": {
+    "message": "เพิ่มต่อไป"
+  },
+  "addAnother": {
+    "message": "เพิ่มอีกใบ"
+  },
+  "autoFillLabel": {
+    "message": "อัตโนมัติ"
+  },
+  "autoGenerating": {
+    "message": "กำลังสร้าง…"
+  },
+  "autoFillFailed": {
+    "message": "เติมด้านหลังไม่สำเร็จ — ลองอีกครั้ง"
+  },
+  "autoSpecPromptTitle": {
+    "message": "ด้านหลังควรเป็นอะไร"
+  },
+  "autoSpecPromptHint": {
+    "message": "เช่น คำแปลภาษาสเปน"
+  },
+  "autoSpecUseThis": {
+    "message": "ใช้อันนี้"
+  },
+  "dailyLimitFillTitle": {
+    "message": "ถึงขีดจำกัดการเติมด้วย AI แล้ว"
+  },
+  "extDescription": {
+    "message": "เพิ่มการ์ดจากข้อความที่เลือกลงในชุดของคุณบน Flashcards.gg"
+  },
+  "set": {
+    "message": "ชุด"
+  },
+  "openInApp": {
+    "message": "เปิดใน Flashcards.gg"
+  },
+  "noKeyTitle": {
+    "message": "เชื่อมต่อบัญชีของคุณ"
+  },
+  "noKeyBody": {
+    "message": "วางคีย์ API จาก flashcards.gg (บัญชี › คีย์ API) ในตัวเลือกของส่วนขยาย คีย์จะอยู่ในเบราว์เซอร์นี้เท่านั้น"
+  },
+  "openOptions": {
+    "message": "เปิดตัวเลือก"
+  },
+  "errNetwork": {
+    "message": "ไม่สามารถเชื่อมต่อ flashcards.gg ได้ โปรดตรวจสอบการเชื่อมต่อแล้วลองอีกครั้ง"
+  },
+  "errAuth": {
+    "message": "คีย์ API ไม่ถูกยอมรับ โปรดสร้างคีย์ใหม่ที่ flashcards.gg (บัญชี › คีย์ API) แล้ววางในตัวเลือก"
+  },
+  "errRate": {
+    "message": "มีคำขอมากเกินไป โปรดรอหนึ่งนาทีแล้วลองอีกครั้ง"
+  },
+  "errGeneric": {
+    "message": "เกิดข้อผิดพลาด โปรดลองอีกครั้ง"
+  },
+  "longHint": {
+    "message": "ข้อความที่เลือกยาว จะบันทึกเป็นการ์ดใบเดียว หากต้องการสร้างหลายใบ ให้ใช้ AI ในแอป"
+  },
+  "retry": {
+    "message": "ลองอีกครั้ง"
+  },
+  "loadingSets": {
+    "message": "กำลังโหลดชุดของคุณ…"
+  },
+  "optionsTitle": {
+    "message": "ส่วนขยาย Flashcards.gg"
+  },
+  "optionsKeyLabel": {
+    "message": "คีย์ API"
+  },
+  "optionsKeyHelp": {
+    "message": "สร้างคีย์ที่ flashcards.gg (บัญชี › คีย์ API) แล้ววางที่นี่ คีย์นี้สร้างและแก้ไขชุดทั้งหมดของคุณได้ และคุณเพิกถอนได้ทุกเมื่อที่นั่น"
+  },
+  "optionsCreateKey": {
+    "message": "สร้างคีย์"
+  },
+  "optionsSave": {
+    "message": "บันทึกคีย์"
+  },
+  "optionsSaved": {
+    "message": "บันทึกคีย์แล้ว"
+  },
+  "optionsTest": {
+    "message": "ทดสอบการเชื่อมต่อ"
+  },
+  "optionsOk": {
+    "message": "เชื่อมต่อแล้ว พบ $N$ ชุด",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "ลบคีย์"
+  },
+  "optionsRemoved": {
+    "message": "ลบคีย์แล้ว"
+  },
+  "optionsPrivacy": {
+    "message": "ข้อความที่เลือกและด้านหลังที่คุณพิมพ์จะถูกส่งไปยัง flashcards.gg เมื่อกดบันทึกเท่านั้น คีย์ถูกเก็บไว้ในเบราว์เซอร์นี้เท่านั้น ไม่มีการเก็บข้อมูลวิเคราะห์"
+  }
+}

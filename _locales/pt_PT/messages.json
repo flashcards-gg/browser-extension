@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "Adicionar ao Flashcards.gg"
+  },
+  "front": {
+    "message": "FRENTE"
+  },
+  "back": {
+    "message": "VERSO"
+  },
+  "save": {
+    "message": "Guardar"
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "done": {
+    "message": "Concluído"
+  },
+  "newSet": {
+    "message": "Novo conjunto"
+  },
+  "setNameHint": {
+    "message": "As minhas leituras"
+  },
+  "backHint": {
+    "message": "Escreva o verso"
+  },
+  "swap": {
+    "message": "Trocar os lados"
+  },
+  "savedTo": {
+    "message": "Guardado em $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "Já está em $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "Verso desse cartão:"
+  },
+  "addAnyway": {
+    "message": "Adicionar mesmo assim"
+  },
+  "addAnother": {
+    "message": "Adicionar outro"
+  },
+  "autoFillLabel": {
+    "message": "Auto"
+  },
+  "autoGenerating": {
+    "message": "A gerar…"
+  },
+  "autoFillFailed": {
+    "message": "Não foi possível preencher o verso. Tente novamente."
+  },
+  "autoSpecPromptTitle": {
+    "message": "O que deve estar em cada verso?"
+  },
+  "autoSpecPromptHint": {
+    "message": "p. ex., tradução para espanhol"
+  },
+  "autoSpecUseThis": {
+    "message": "Usar esta"
+  },
+  "dailyLimitFillTitle": {
+    "message": "Limite de preenchimento com IA atingido"
+  },
+  "extDescription": {
+    "message": "Adicione cartões aos seus conjuntos do Flashcards.gg a partir do texto selecionado."
+  },
+  "set": {
+    "message": "Conjunto"
+  },
+  "openInApp": {
+    "message": "Abrir no Flashcards.gg"
+  },
+  "noKeyTitle": {
+    "message": "Ligue a sua conta"
+  },
+  "noKeyBody": {
+    "message": "Cole uma chave de API do flashcards.gg (Conta › Chaves de API) nas opções da extensão. Fica apenas neste navegador."
+  },
+  "openOptions": {
+    "message": "Abrir opções"
+  },
+  "errNetwork": {
+    "message": "Não foi possível contactar flashcards.gg. Verifique a ligação e tente novamente."
+  },
+  "errAuth": {
+    "message": "A chave de API não foi aceite. Crie uma nova em flashcards.gg (Conta › Chaves de API) e cole-a nas opções."
+  },
+  "errRate": {
+    "message": "Demasiados pedidos. Aguarde um minuto e tente novamente."
+  },
+  "errGeneric": {
+    "message": "Algo correu mal. Tente novamente."
+  },
+  "longHint": {
+    "message": "Seleção longa: é guardada como um único cartão. Para criar vários, use a IA na aplicação."
+  },
+  "retry": {
+    "message": "Tentar novamente"
+  },
+  "loadingSets": {
+    "message": "A carregar os seus conjuntos…"
+  },
+  "optionsTitle": {
+    "message": "Extensão Flashcards.gg"
+  },
+  "optionsKeyLabel": {
+    "message": "Chave de API"
+  },
+  "optionsKeyHelp": {
+    "message": "Crie uma chave em flashcards.gg (Conta › Chaves de API) e cole-a aqui. A chave pode criar e editar todos os seus conjuntos; pode revogá-la aí a qualquer momento."
+  },
+  "optionsCreateKey": {
+    "message": "Criar uma chave"
+  },
+  "optionsSave": {
+    "message": "Guardar chave"
+  },
+  "optionsSaved": {
+    "message": "Chave guardada."
+  },
+  "optionsTest": {
+    "message": "Testar ligação"
+  },
+  "optionsOk": {
+    "message": "Ligado. $N$ conjuntos encontrados.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "Remover chave"
+  },
+  "optionsRemoved": {
+    "message": "Chave removida."
+  },
+  "optionsPrivacy": {
+    "message": "O texto selecionado e o verso escrito só são enviados para flashcards.gg ao premir Guardar. A chave fica apenas neste navegador. Sem análises de utilização."
+  }
+}

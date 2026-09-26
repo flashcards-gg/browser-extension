@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "Toevoegen aan Flashcards.gg"
+  },
+  "front": {
+    "message": "VOORKANT"
+  },
+  "back": {
+    "message": "ACHTERKANT"
+  },
+  "save": {
+    "message": "Opslaan"
+  },
+  "cancel": {
+    "message": "Annuleren"
+  },
+  "done": {
+    "message": "Klaar"
+  },
+  "newSet": {
+    "message": "Nieuwe set"
+  },
+  "setNameHint": {
+    "message": "Uit het lezen"
+  },
+  "backHint": {
+    "message": "Typ de achterkant"
+  },
+  "swap": {
+    "message": "Kanten wisselen"
+  },
+  "savedTo": {
+    "message": "Opgeslagen in $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "Staat al in $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "Achterkant van die kaart:"
+  },
+  "addAnyway": {
+    "message": "Toch toevoegen"
+  },
+  "addAnother": {
+    "message": "Nog een toevoegen"
+  },
+  "autoFillLabel": {
+    "message": "Auto"
+  },
+  "autoGenerating": {
+    "message": "Genereren…"
+  },
+  "autoFillFailed": {
+    "message": "Kon de achterkant niet invullen — probeer opnieuw."
+  },
+  "autoSpecPromptTitle": {
+    "message": "Wat moet de achterkant zijn?"
+  },
+  "autoSpecPromptHint": {
+    "message": "bijv. Spaanse vertaling"
+  },
+  "autoSpecUseThis": {
+    "message": "Gebruik dit"
+  },
+  "dailyLimitFillTitle": {
+    "message": "AI-invullimiet bereikt"
+  },
+  "extDescription": {
+    "message": "Voeg kaarten van geselecteerde tekst toe aan je Flashcards.gg-sets."
+  },
+  "set": {
+    "message": "Set"
+  },
+  "openInApp": {
+    "message": "Openen in Flashcards.gg"
+  },
+  "noKeyTitle": {
+    "message": "Verbind je account"
+  },
+  "noKeyBody": {
+    "message": "Plak een API-sleutel van flashcards.gg (Account › API-sleutels) in de opties van de extensie. Hij blijft in deze browser."
+  },
+  "openOptions": {
+    "message": "Opties openen"
+  },
+  "errNetwork": {
+    "message": "flashcards.gg is niet bereikbaar. Controleer je verbinding en probeer het opnieuw."
+  },
+  "errAuth": {
+    "message": "De API-sleutel is niet geaccepteerd. Maak een nieuwe aan op flashcards.gg (Account › API-sleutels) en plak hem in de opties."
+  },
+  "errRate": {
+    "message": "Te veel verzoeken. Wacht een minuut en probeer het opnieuw."
+  },
+  "errGeneric": {
+    "message": "Er ging iets mis. Probeer het opnieuw."
+  },
+  "longHint": {
+    "message": "Lange selectie: hij wordt als één kaart opgeslagen. Meerdere kaarten maak je met AI in de app."
+  },
+  "retry": {
+    "message": "Opnieuw proberen"
+  },
+  "loadingSets": {
+    "message": "Je sets worden geladen…"
+  },
+  "optionsTitle": {
+    "message": "Flashcards.gg-extensie"
+  },
+  "optionsKeyLabel": {
+    "message": "API-sleutel"
+  },
+  "optionsKeyHelp": {
+    "message": "Maak een sleutel aan op flashcards.gg (Account › API-sleutels) en plak hem hier. De sleutel kan al je sets aanmaken en bewerken; je kunt hem daar altijd intrekken."
+  },
+  "optionsCreateKey": {
+    "message": "Sleutel aanmaken"
+  },
+  "optionsSave": {
+    "message": "Sleutel opslaan"
+  },
+  "optionsSaved": {
+    "message": "Sleutel opgeslagen."
+  },
+  "optionsTest": {
+    "message": "Verbinding testen"
+  },
+  "optionsOk": {
+    "message": "Verbonden. $N$ sets gevonden.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "Sleutel verwijderen"
+  },
+  "optionsRemoved": {
+    "message": "Sleutel verwijderd."
+  },
+  "optionsPrivacy": {
+    "message": "De geselecteerde tekst en de achterkant die je typt worden pas naar flashcards.gg gestuurd als je op Opslaan drukt. De sleutel blijft alleen in deze browser. Geen analytics."
+  }
+}

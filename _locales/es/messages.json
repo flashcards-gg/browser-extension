@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "Añadir a Flashcards.gg"
+  },
+  "front": {
+    "message": "FRENTE"
+  },
+  "back": {
+    "message": "DORSO"
+  },
+  "save": {
+    "message": "Guardar"
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "done": {
+    "message": "Listo"
+  },
+  "newSet": {
+    "message": "Nuevo conjunto"
+  },
+  "setNameHint": {
+    "message": "Mis lecturas"
+  },
+  "backHint": {
+    "message": "Escribe el dorso"
+  },
+  "swap": {
+    "message": "Intercambiar caras"
+  },
+  "savedTo": {
+    "message": "Guardada en $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "Ya está en $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "Dorso de esa tarjeta:"
+  },
+  "addAnyway": {
+    "message": "Añadir de todos modos"
+  },
+  "addAnother": {
+    "message": "Añadir otra"
+  },
+  "autoFillLabel": {
+    "message": "Auto"
+  },
+  "autoGenerating": {
+    "message": "Generando…"
+  },
+  "autoFillFailed": {
+    "message": "No se pudo rellenar el reverso — inténtalo de nuevo."
+  },
+  "autoSpecPromptTitle": {
+    "message": "¿Qué debe ir en el reverso?"
+  },
+  "autoSpecPromptHint": {
+    "message": "p. ej. traducción al español"
+  },
+  "autoSpecUseThis": {
+    "message": "Usar esto"
+  },
+  "dailyLimitFillTitle": {
+    "message": "Límite de relleno con IA alcanzado"
+  },
+  "extDescription": {
+    "message": "Añade tarjetas a tus conjuntos de Flashcards.gg a partir del texto seleccionado."
+  },
+  "set": {
+    "message": "Conjunto"
+  },
+  "openInApp": {
+    "message": "Abrir en Flashcards.gg"
+  },
+  "noKeyTitle": {
+    "message": "Conecta tu cuenta"
+  },
+  "noKeyBody": {
+    "message": "Pega una clave de API de flashcards.gg (Cuenta › Claves de API) en las opciones de la extensión. Se queda en este navegador."
+  },
+  "openOptions": {
+    "message": "Abrir opciones"
+  },
+  "errNetwork": {
+    "message": "No se pudo conectar con flashcards.gg. Comprueba la conexión e inténtalo de nuevo."
+  },
+  "errAuth": {
+    "message": "La clave de API no fue aceptada. Crea una nueva en flashcards.gg (Cuenta › Claves de API) y pégala en las opciones."
+  },
+  "errRate": {
+    "message": "Demasiadas solicitudes. Espera un minuto e inténtalo de nuevo."
+  },
+  "errGeneric": {
+    "message": "Algo salió mal. Inténtalo de nuevo."
+  },
+  "longHint": {
+    "message": "Selección larga: se guarda como una sola tarjeta. Para crear varias, usa la IA en la aplicación."
+  },
+  "retry": {
+    "message": "Reintentar"
+  },
+  "loadingSets": {
+    "message": "Cargando tus conjuntos…"
+  },
+  "optionsTitle": {
+    "message": "Extensión de Flashcards.gg"
+  },
+  "optionsKeyLabel": {
+    "message": "Clave de API"
+  },
+  "optionsKeyHelp": {
+    "message": "Crea una clave en flashcards.gg (Cuenta › Claves de API) y pégala aquí. La clave puede crear y editar todos tus conjuntos; puedes revocarla allí en cualquier momento."
+  },
+  "optionsCreateKey": {
+    "message": "Crear una clave"
+  },
+  "optionsSave": {
+    "message": "Guardar clave"
+  },
+  "optionsSaved": {
+    "message": "Clave guardada."
+  },
+  "optionsTest": {
+    "message": "Probar conexión"
+  },
+  "optionsOk": {
+    "message": "Conectado. $N$ conjuntos encontrados.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "Quitar clave"
+  },
+  "optionsRemoved": {
+    "message": "Clave eliminada."
+  },
+  "optionsPrivacy": {
+    "message": "El texto seleccionado y el dorso que escribes se envían a flashcards.gg solo al pulsar Guardar. La clave se guarda únicamente en este navegador. Sin analíticas."
+  }
+}

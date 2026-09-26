@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "Tambahkan ke Flashcards.gg"
+  },
+  "front": {
+    "message": "DEPAN"
+  },
+  "back": {
+    "message": "BELAKANG"
+  },
+  "save": {
+    "message": "Simpan"
+  },
+  "cancel": {
+    "message": "Batal"
+  },
+  "done": {
+    "message": "Selesai"
+  },
+  "newSet": {
+    "message": "Set baru"
+  },
+  "setNameHint": {
+    "message": "Dari bacaan"
+  },
+  "backHint": {
+    "message": "Ketik sisi belakang"
+  },
+  "swap": {
+    "message": "Tukar sisi"
+  },
+  "savedTo": {
+    "message": "Disimpan ke $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "Sudah ada di $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "Sisi belakang kartu itu:"
+  },
+  "addAnyway": {
+    "message": "Tetap tambahkan"
+  },
+  "addAnother": {
+    "message": "Tambah lagi"
+  },
+  "autoFillLabel": {
+    "message": "Auto"
+  },
+  "autoGenerating": {
+    "message": "Membuat…"
+  },
+  "autoFillFailed": {
+    "message": "Tidak dapat mengisi sisi belakang — coba lagi."
+  },
+  "autoSpecPromptTitle": {
+    "message": "Apa isi sisi belakang?"
+  },
+  "autoSpecPromptHint": {
+    "message": "mis. terjemahan Spanyol"
+  },
+  "autoSpecUseThis": {
+    "message": "Gunakan ini"
+  },
+  "dailyLimitFillTitle": {
+    "message": "Batas isi AI tercapai"
+  },
+  "extDescription": {
+    "message": "Tambahkan kartu dari teks yang dipilih ke set Flashcards.gg Anda."
+  },
+  "set": {
+    "message": "Set"
+  },
+  "openInApp": {
+    "message": "Buka di Flashcards.gg"
+  },
+  "noKeyTitle": {
+    "message": "Hubungkan akun Anda"
+  },
+  "noKeyBody": {
+    "message": "Tempel kunci API dari flashcards.gg (Akun › Kunci API) di opsi ekstensi. Kunci tetap berada di browser ini."
+  },
+  "openOptions": {
+    "message": "Buka opsi"
+  },
+  "errNetwork": {
+    "message": "Tidak dapat menghubungi flashcards.gg. Periksa koneksi dan coba lagi."
+  },
+  "errAuth": {
+    "message": "Kunci API tidak diterima. Buat yang baru di flashcards.gg (Akun › Kunci API) dan tempel di opsi."
+  },
+  "errRate": {
+    "message": "Terlalu banyak permintaan. Tunggu satu menit dan coba lagi."
+  },
+  "errGeneric": {
+    "message": "Terjadi kesalahan. Coba lagi."
+  },
+  "longHint": {
+    "message": "Pilihan teks panjang: disimpan sebagai satu kartu. Untuk membuat beberapa kartu, gunakan AI di aplikasi."
+  },
+  "retry": {
+    "message": "Coba lagi"
+  },
+  "loadingSets": {
+    "message": "Memuat set Anda…"
+  },
+  "optionsTitle": {
+    "message": "Ekstensi Flashcards.gg"
+  },
+  "optionsKeyLabel": {
+    "message": "Kunci API"
+  },
+  "optionsKeyHelp": {
+    "message": "Buat kunci di flashcards.gg (Akun › Kunci API) dan tempel di sini. Kunci dapat membuat dan mengedit semua set Anda; Anda dapat mencabutnya di sana kapan saja."
+  },
+  "optionsCreateKey": {
+    "message": "Buat kunci"
+  },
+  "optionsSave": {
+    "message": "Simpan kunci"
+  },
+  "optionsSaved": {
+    "message": "Kunci disimpan."
+  },
+  "optionsTest": {
+    "message": "Uji koneksi"
+  },
+  "optionsOk": {
+    "message": "Terhubung. $N$ set ditemukan.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "Hapus kunci"
+  },
+  "optionsRemoved": {
+    "message": "Kunci dihapus."
+  },
+  "optionsPrivacy": {
+    "message": "Teks yang dipilih dan sisi belakang yang Anda ketik hanya dikirim ke flashcards.gg saat Anda menekan Simpan. Kunci hanya disimpan di browser ini. Tanpa analitik."
+  }
+}

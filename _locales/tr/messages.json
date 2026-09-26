@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "Flashcards.gg’ye ekle"
+  },
+  "front": {
+    "message": "ÖN"
+  },
+  "back": {
+    "message": "ARKA"
+  },
+  "save": {
+    "message": "Kaydet"
+  },
+  "cancel": {
+    "message": "İptal"
+  },
+  "done": {
+    "message": "Tamam"
+  },
+  "newSet": {
+    "message": "Yeni set"
+  },
+  "setNameHint": {
+    "message": "Okumalardan"
+  },
+  "backHint": {
+    "message": "Arka yüzü yazın"
+  },
+  "swap": {
+    "message": "Yüzleri değiştir"
+  },
+  "savedTo": {
+    "message": "$SET$ setine kaydedildi",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "$SET$ içinde zaten var",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "O kartın arka yüzü:"
+  },
+  "addAnyway": {
+    "message": "Yine de ekle"
+  },
+  "addAnother": {
+    "message": "Bir tane daha ekle"
+  },
+  "autoFillLabel": {
+    "message": "Oto"
+  },
+  "autoGenerating": {
+    "message": "Oluşturuluyor…"
+  },
+  "autoFillFailed": {
+    "message": "Arka yüz doldurulamadı — tekrar deneyin."
+  },
+  "autoSpecPromptTitle": {
+    "message": "Arka yüzde ne olmalı?"
+  },
+  "autoSpecPromptHint": {
+    "message": "örn. İspanyolca çeviri"
+  },
+  "autoSpecUseThis": {
+    "message": "Bunu kullan"
+  },
+  "dailyLimitFillTitle": {
+    "message": "Yapay zekâ doldurma sınırına ulaşıldı"
+  },
+  "extDescription": {
+    "message": "Seçili metinden Flashcards.gg setlerinize kart ekleyin."
+  },
+  "set": {
+    "message": "Set"
+  },
+  "openInApp": {
+    "message": "Flashcards.gg’de aç"
+  },
+  "noKeyTitle": {
+    "message": "Hesabınızı bağlayın"
+  },
+  "noKeyBody": {
+    "message": "flashcards.gg’den (Hesap › API anahtarları) bir API anahtarını uzantı seçeneklerine yapıştırın. Bu tarayıcıda kalır."
+  },
+  "openOptions": {
+    "message": "Seçenekleri aç"
+  },
+  "errNetwork": {
+    "message": "flashcards.gg’ye ulaşılamadı. Bağlantınızı kontrol edip yeniden deneyin."
+  },
+  "errAuth": {
+    "message": "API anahtarı kabul edilmedi. flashcards.gg’de (Hesap › API anahtarları) yeni bir anahtar oluşturup seçeneklere yapıştırın."
+  },
+  "errRate": {
+    "message": "Çok fazla istek. Bir dakika bekleyip yeniden deneyin."
+  },
+  "errGeneric": {
+    "message": "Bir şeyler ters gitti. Yeniden deneyin."
+  },
+  "longHint": {
+    "message": "Uzun seçim: tek bir kart olarak kaydedilir. Birden fazla kart için uygulamadaki yapay zekâyı kullanın."
+  },
+  "retry": {
+    "message": "Yeniden dene"
+  },
+  "loadingSets": {
+    "message": "Setleriniz yükleniyor…"
+  },
+  "optionsTitle": {
+    "message": "Flashcards.gg uzantısı"
+  },
+  "optionsKeyLabel": {
+    "message": "API anahtarı"
+  },
+  "optionsKeyHelp": {
+    "message": "flashcards.gg’de (Hesap › API anahtarları) bir anahtar oluşturup buraya yapıştırın. Anahtar tüm setlerinizi oluşturabilir ve düzenleyebilir; oradan istediğiniz zaman iptal edebilirsiniz."
+  },
+  "optionsCreateKey": {
+    "message": "Anahtar oluştur"
+  },
+  "optionsSave": {
+    "message": "Anahtarı kaydet"
+  },
+  "optionsSaved": {
+    "message": "Anahtar kaydedildi."
+  },
+  "optionsTest": {
+    "message": "Bağlantıyı test et"
+  },
+  "optionsOk": {
+    "message": "Bağlandı. $N$ set bulundu.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "Anahtarı kaldır"
+  },
+  "optionsRemoved": {
+    "message": "Anahtar kaldırıldı."
+  },
+  "optionsPrivacy": {
+    "message": "Seçili metin ve yazdığınız arka yüz, yalnızca Kaydet’e bastığınızda flashcards.gg’ye gönderilir. Anahtar yalnızca bu tarayıcıda saklanır. Analitik yok."
+  }
+}

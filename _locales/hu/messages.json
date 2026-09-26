@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "Flashcards.gg"
+  },
+  "menuAdd": {
+    "message": "Hozzáadás a Flashcards.gg-hez"
+  },
+  "front": {
+    "message": "ELOLAP"
+  },
+  "back": {
+    "message": "HATLAP"
+  },
+  "save": {
+    "message": "Mentes"
+  },
+  "cancel": {
+    "message": "Megse"
+  },
+  "done": {
+    "message": "Kész"
+  },
+  "newSet": {
+    "message": "Új csomag"
+  },
+  "setNameHint": {
+    "message": "Olvasmányokból"
+  },
+  "backHint": {
+    "message": "Írd be a hátlapot"
+  },
+  "swap": {
+    "message": "Oldalak cseréje"
+  },
+  "savedTo": {
+    "message": "Mentve ide: $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupTitle": {
+    "message": "Már benne van: $SET$",
+    "placeholders": {
+      "set": {
+        "content": "$1"
+      }
+    }
+  },
+  "dupBack": {
+    "message": "Annak a kártyának a hátlapja:"
+  },
+  "addAnyway": {
+    "message": "Hozzáadás mégis"
+  },
+  "addAnother": {
+    "message": "Még egy hozzáadása"
+  },
+  "autoFillLabel": {
+    "message": "Auto"
+  },
+  "autoGenerating": {
+    "message": "Generálás…"
+  },
+  "autoFillFailed": {
+    "message": "Nem sikerült kitölteni a hátlapot — próbáld újra."
+  },
+  "autoSpecPromptTitle": {
+    "message": "Mi legyen a hátlapon?"
+  },
+  "autoSpecPromptHint": {
+    "message": "pl. spanyol fordítás"
+  },
+  "autoSpecUseThis": {
+    "message": "Ezt használom"
+  },
+  "dailyLimitFillTitle": {
+    "message": "Elérted az AI-kitöltés napi korlátját"
+  },
+  "extDescription": {
+    "message": "Kártyák hozzáadása kijelölt szövegből a Flashcards.gg-csomagjaidhoz."
+  },
+  "set": {
+    "message": "Csomag"
+  },
+  "openInApp": {
+    "message": "Megnyitás a Flashcards.gg-ben"
+  },
+  "noKeyTitle": {
+    "message": "Fiók csatlakoztatása"
+  },
+  "noKeyBody": {
+    "message": "Illessz be egy API-kulcsot a flashcards.gg-ről (Fiók › API-kulcsok) a bővítmény beállításaiba. Ebben a böngészőben marad."
+  },
+  "openOptions": {
+    "message": "Beállítások megnyitása"
+  },
+  "errNetwork": {
+    "message": "Nem sikerült elérni a flashcards.gg-t. Ellenőrizd a kapcsolatot, és próbáld újra."
+  },
+  "errAuth": {
+    "message": "Az API-kulcsot nem fogadta el a rendszer. Hozz létre újat a flashcards.gg-n (Fiók › API-kulcsok), és illeszd be a beállításokba."
+  },
+  "errRate": {
+    "message": "Túl sok kérés. Várj egy percet, és próbáld újra."
+  },
+  "errGeneric": {
+    "message": "Valami hiba történt. Próbáld újra."
+  },
+  "longHint": {
+    "message": "Hosszú kijelölés: egy kártyaként mentődik. Több kártyát az alkalmazás AI-jával készíthetsz belőle."
+  },
+  "retry": {
+    "message": "Újra"
+  },
+  "loadingSets": {
+    "message": "Csomagok betöltése…"
+  },
+  "optionsTitle": {
+    "message": "Flashcards.gg-bővítmény"
+  },
+  "optionsKeyLabel": {
+    "message": "API-kulcs"
+  },
+  "optionsKeyHelp": {
+    "message": "Hozz létre egy kulcsot a flashcards.gg-n (Fiók › API-kulcsok), és illeszd be ide. A kulcs létrehozhatja és szerkesztheti az összes csomagodat; ott bármikor visszavonhatod."
+  },
+  "optionsCreateKey": {
+    "message": "Kulcs létrehozása"
+  },
+  "optionsSave": {
+    "message": "Kulcs mentése"
+  },
+  "optionsSaved": {
+    "message": "Kulcs elmentve."
+  },
+  "optionsTest": {
+    "message": "Kapcsolat tesztelése"
+  },
+  "optionsOk": {
+    "message": "Kapcsolódva. $N$ csomag található.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsRemove": {
+    "message": "Kulcs eltávolítása"
+  },
+  "optionsRemoved": {
+    "message": "Kulcs eltávolítva."
+  },
+  "optionsPrivacy": {
+    "message": "A kijelölt szöveg és a beírt hátlap csak a Mentés gomb megnyomásakor kerül a flashcards.gg-re. A kulcs csak ebben a böngészőben tárolódik. Nincs analitika."
+  }
+}
