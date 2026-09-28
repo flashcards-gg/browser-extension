@@ -2,7 +2,7 @@
 
 Adds **Add to Flashcards** to the right-click menu on selected text in Chrome, Edge and Firefox. The selected word or phrase becomes the front of a new card in one of your [Flashcards.gg](https://flashcards.gg) sets, saved through the public API with your own API key.
 
-**Status: in development.** Not yet published to any extension store; it can be loaded unpacked from a local build (see below).
+**Status: submitted to the Chrome Web Store for review (2026-09-28).** Until it is listed, it can be loaded unpacked from a local build (see below).
 
 | | |
 |---|---|
