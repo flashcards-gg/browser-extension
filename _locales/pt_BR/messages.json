@@ -153,6 +153,6 @@
     "message": "Chave removida."
   },
   "optionsPrivacy": {
-    "message": "O texto selecionado e o verso digitado são enviados ao flashcards.gg somente ao pressionar Salvar. A chave fica apenas neste navegador. Sem análises de uso."
+    "message": "O texto selecionado e o verso digitado são enviados ao flashcards.gg somente ao pressionar Salvar ou Auto. A chave fica apenas neste navegador. Sem análises de uso."
   }
 }

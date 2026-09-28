@@ -5,6 +5,7 @@
  */
 import { ApiError, createClient } from './api';
 import { t } from './i18n';
+import { requestHostPermission } from './permissions';
 import { clearSetsCache, getApiKey, setApiKey, setLastSetId } from './storage';
 
 declare const __VERSION__: string;
@@ -50,12 +51,14 @@ async function init(): Promise<void> {
   });
 
   $('test').addEventListener('click', async () => {
+    const permitted = requestHostPermission(); // before any await (Firefox)
     const v = key.value.trim();
     if (!looksLikeKey(v)) {
       status(t('errAuth'), 'err');
       return;
     }
     status('…');
+    await permitted;
     try {
       const api = createClient({ apiKey: v, clientId: `browser-extension/${__VERSION__}` });
       const sets = await api.listSets();

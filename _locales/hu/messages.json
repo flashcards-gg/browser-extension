@@ -6,16 +6,16 @@
     "message": "Hozzáadás a Flashcards.gg-hez"
   },
   "front": {
-    "message": "ELOLAP"
+    "message": "ELŐLAP"
   },
   "back": {
-    "message": "HATLAP"
+    "message": "HÁTLAP"
   },
   "save": {
-    "message": "Mentes"
+    "message": "Mentés"
   },
   "cancel": {
-    "message": "Megse"
+    "message": "Mégse"
   },
   "done": {
     "message": "Kész"
@@ -153,6 +153,6 @@
     "message": "Kulcs eltávolítva."
   },
   "optionsPrivacy": {
-    "message": "A kijelölt szöveg és a beírt hátlap csak a Mentés gomb megnyomásakor kerül a flashcards.gg-re. A kulcs csak ebben a böngészőben tárolódik. Nincs analitika."
+    "message": "A kijelölt szöveg és a beírt hátlap csak a Mentés vagy az Auto gomb megnyomásakor kerül a flashcards.gg-re. A kulcs csak ebben a böngészőben tárolódik. Nincs analitika."
   }
 }

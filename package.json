@@ -1,6 +1,6 @@
 {
   "name": "@flashcards-gg/browser-extension",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Add a card from selected text to your Flashcards.gg sets (Chrome, Edge, Firefox).",
   "license": "MIT",

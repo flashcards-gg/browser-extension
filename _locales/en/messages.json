@@ -153,6 +153,6 @@
     "message": "Key removed."
   },
   "optionsPrivacy": {
-    "message": "The selected text and the back you type are sent to flashcards.gg only when you press Save. The key is stored in this browser only. No analytics."
+    "message": "The selected text and the back you type are sent to flashcards.gg only when you press Save or Auto. The key is stored in this browser only. No analytics."
   }
 }

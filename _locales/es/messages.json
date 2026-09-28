@@ -153,6 +153,6 @@
     "message": "Clave eliminada."
   },
   "optionsPrivacy": {
-    "message": "El texto seleccionado y el dorso que escribes se envían a flashcards.gg solo al pulsar Guardar. La clave se guarda únicamente en este navegador. Sin analíticas."
+    "message": "El texto seleccionado y el dorso que escribes se envían a flashcards.gg solo al pulsar Guardar o Auto. La clave se guarda únicamente en este navegador. Sin analíticas."
   }
 }

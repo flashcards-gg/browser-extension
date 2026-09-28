@@ -11,6 +11,7 @@ import {
   type OpenOverlay,
   type ToBackground,
 } from './messages';
+import { requestHostPermission } from './permissions';
 import {
   SETS_CACHE_MS,
   getApiKey,
@@ -21,10 +22,8 @@ import {
 } from './storage';
 
 declare const __VERSION__: string;
-declare const __BROWSER__: string;
 
 const MENU_ID = 'flashcards-gg-add';
-const HOST_ORIGINS = ['https://flashcards.gg/*'];
 
 function client(apiKey: string): ApiClient {
   return createClient({ apiKey, clientId: `browser-extension/${__VERSION__}` });
@@ -50,22 +49,14 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
   if (info.menuItemId !== MENU_ID || !tab?.id) return;
   const text = (info.selectionText ?? '').trim();
   if (!text) return;
-  void openOverlay(tab.id, text);
+  // Before any await: Firefox only honours the request inside the click.
+  const permitted = requestHostPermission();
+  void openOverlay(tab.id, text, permitted);
 });
 
-/** Firefox treats host permissions as optional at install; ask on first use
- *  (a context-menu click counts as the user gesture it needs). */
-async function ensureHostPermission(): Promise<boolean> {
-  try {
-    if (await chrome.permissions.contains({ origins: HOST_ORIGINS })) return true;
-    return await chrome.permissions.request({ origins: HOST_ORIGINS });
-  } catch {
-    return true; // Chrome: granted at install; the API is simply absent/irrelevant
-  }
-}
-
-async function openOverlay(tabId: number, text: string): Promise<void> {
-  await ensureHostPermission();
+async function openOverlay(tabId: number, text: string, permitted: Promise<boolean>): Promise<void> {
+  // Refused: carry on; the overlay's API calls then fail as a network error.
+  await permitted;
   const nokey = (await getApiKey()) === null;
   try {
     await chrome.scripting.executeScript({ target: { tabId }, files: ['content.js'] });

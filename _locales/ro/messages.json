@@ -6,16 +6,16 @@
     "message": "Adaugă în Flashcards.gg"
   },
   "front": {
-    "message": "FATA"
+    "message": "FAȚĂ"
   },
   "back": {
     "message": "VERSO"
   },
   "save": {
-    "message": "Salveaza"
+    "message": "Salvează"
   },
   "cancel": {
-    "message": "Anuleaza"
+    "message": "Anulează"
   },
   "done": {
     "message": "Gata"
@@ -153,6 +153,6 @@
     "message": "Cheie eliminată."
   },
   "optionsPrivacy": {
-    "message": "Textul selectat și versoul scris sunt trimise la flashcards.gg doar când apeși Salvează. Cheia este păstrată doar în acest browser. Fără analitice."
+    "message": "Textul selectat și versoul scris sunt trimise la flashcards.gg doar când apeși Salvează sau Auto. Cheia este păstrată doar în acest browser. Fără analitice."
   }
 }

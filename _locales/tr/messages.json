@@ -153,6 +153,6 @@
     "message": "Anahtar kaldırıldı."
   },
   "optionsPrivacy": {
-    "message": "Seçili metin ve yazdığınız arka yüz, yalnızca Kaydet’e bastığınızda flashcards.gg’ye gönderilir. Anahtar yalnızca bu tarayıcıda saklanır. Analitik yok."
+    "message": "Seçili metin ve yazdığınız arka yüz, yalnızca Kaydet’e veya Oto’ya bastığınızda flashcards.gg’ye gönderilir. Anahtar yalnızca bu tarayıcıda saklanır. Analitik yok."
   }
 }

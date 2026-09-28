@@ -153,6 +153,6 @@
     "message": "Klucz usunięty."
   },
   "optionsPrivacy": {
-    "message": "Zaznaczony tekst i wpisany tył są wysyłane do flashcards.gg tylko po naciśnięciu Zapisz. Klucz jest przechowywany tylko w tej przeglądarce. Bez analityki."
+    "message": "Zaznaczony tekst i wpisany tył są wysyłane do flashcards.gg tylko po naciśnięciu Zapisz lub Auto. Klucz jest przechowywany tylko w tej przeglądarce. Bez analityki."
   }
 }

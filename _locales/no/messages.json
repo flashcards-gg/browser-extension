@@ -153,6 +153,6 @@
     "message": "Nøkkel fjernet."
   },
   "optionsPrivacy": {
-    "message": "Den merkede teksten og baksiden du skriver, sendes til flashcards.gg først når du trykker Lagre. Nøkkelen lagres bare i denne nettleseren. Ingen analyse."
+    "message": "Den merkede teksten og baksiden du skriver, sendes til flashcards.gg først når du trykker Lagre eller Auto. Nøkkelen lagres bare i denne nettleseren. Ingen analyse."
   }
 }

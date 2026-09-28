@@ -153,6 +153,6 @@
     "message": "Nøgle fjernet."
   },
   "optionsPrivacy": {
-    "message": "Den markerede tekst og bagsiden, du skriver, sendes kun til flashcards.gg, når du trykker Gem. Nøglen gemmes kun i denne browser. Ingen analyse."
+    "message": "Den markerede tekst og bagsiden, du skriver, sendes kun til flashcards.gg, når du trykker Gem eller Auto. Nøglen gemmes kun i denne browser. Ingen analyse."
   }
 }

@@ -153,6 +153,6 @@
     "message": "Avain poistettu."
   },
   "optionsPrivacy": {
-    "message": "Valittu teksti ja kirjoittamasi takapuoli lähetetään flashcards.gg:hen vasta, kun painat Tallenna. Avain säilyy vain tässä selaimessa. Ei analytiikkaa."
+    "message": "Valittu teksti ja kirjoittamasi takapuoli lähetetään flashcards.gg:hen vasta, kun painat Tallenna tai Auto. Avain säilyy vain tässä selaimessa. Ei analytiikkaa."
   }
 }

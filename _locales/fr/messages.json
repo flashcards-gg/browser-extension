@@ -153,6 +153,6 @@
     "message": "Clé supprimée."
   },
   "optionsPrivacy": {
-    "message": "Le texte sélectionné et le verso saisi ne sont envoyés à flashcards.gg qu’au moment d’enregistrer. La clé est conservée uniquement dans ce navigateur. Aucune analyse d’usage."
+    "message": "Le texte sélectionné et le verso saisi ne sont envoyés à flashcards.gg qu’au moment d’enregistrer ou d’appuyer sur Auto. La clé est conservée uniquement dans ce navigateur. Aucune analyse d’usage."
   }
 }

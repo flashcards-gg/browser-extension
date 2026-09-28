@@ -153,6 +153,6 @@
     "message": "Chiave rimossa."
   },
   "optionsPrivacy": {
-    "message": "Il testo selezionato e il retro che scrivi vengono inviati a flashcards.gg solo quando premi Salva. La chiave resta solo in questo browser. Nessuna analisi d’uso."
+    "message": "Il testo selezionato e il retro che scrivi vengono inviati a flashcards.gg solo quando premi Salva o Auto. La chiave resta solo in questo browser. Nessuna analisi d’uso."
   }
 }

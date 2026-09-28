@@ -153,6 +153,6 @@
     "message": "Klíč odebrán."
   },
   "optionsPrivacy": {
-    "message": "Vybraný text a zadaná zadní strana se odesílají na flashcards.gg až po stisknutí Uložit. Klíč je uložen jen v tomto prohlížeči. Bez analytiky."
+    "message": "Vybraný text a zadaná zadní strana se odesílají na flashcards.gg až po stisknutí Uložit nebo Auto. Klíč je uložen jen v tomto prohlížeči. Bez analytiky."
   }
 }

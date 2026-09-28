@@ -153,6 +153,6 @@
     "message": "Nyckel borttagen."
   },
   "optionsPrivacy": {
-    "message": "Den markerade texten och baksidan du skriver skickas till flashcards.gg först när du trycker på Spara. Nyckeln lagras bara i den här webbläsaren. Ingen analys."
+    "message": "Den markerade texten och baksidan du skriver skickas till flashcards.gg först när du trycker på Spara eller Auto. Nyckeln lagras bara i den här webbläsaren. Ingen analys."
   }
 }

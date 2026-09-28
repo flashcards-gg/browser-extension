@@ -6,16 +6,16 @@
     "message": "Thêm vào Flashcards.gg"
   },
   "front": {
-    "message": "MAT TRUOC"
+    "message": "MẶT TRƯỚC"
   },
   "back": {
-    "message": "MAT SAU"
+    "message": "MẶT SAU"
   },
   "save": {
-    "message": "Luu"
+    "message": "Lưu"
   },
   "cancel": {
-    "message": "Huy"
+    "message": "Hủy"
   },
   "done": {
     "message": "Xong"
@@ -153,6 +153,6 @@
     "message": "Đã xóa khóa."
   },
   "optionsPrivacy": {
-    "message": "Văn bản đã chọn và mặt sau bạn nhập chỉ được gửi tới flashcards.gg khi bạn nhấn Lưu. Khóa chỉ được lưu trong trình duyệt này. Không có phân tích."
+    "message": "Văn bản đã chọn và mặt sau bạn nhập chỉ được gửi tới flashcards.gg khi bạn nhấn Lưu hoặc Tự động. Khóa chỉ được lưu trong trình duyệt này. Không có phân tích."
   }
 }

@@ -25,7 +25,7 @@ for (const browser of want) {
     },
     bundle: true,
     format: 'iife',
-    target: ['chrome120', 'firefox121'],
+    target: ['chrome120', 'firefox140'],
     outdir: out,
     minify: false,
     sourcemap: false,
@@ -39,7 +39,18 @@ for (const browser of want) {
     // Firefox runs MV3 background as an event page, not a service worker.
     manifest.background = { scripts: ['background.js'] };
     manifest.browser_specific_settings = {
-      gecko: { id: 'browser-extension@flashcards.gg', strict_min_version: '121.0' },
+      gecko: {
+        id: 'browser-extension@flashcards.gg',
+        // 140 = the first version with the built-in data-collection consent
+        // below (and the current ESR); host permissions are granted at install
+        // since 127.
+        strict_min_version: '140.0',
+        // Shown in Firefox's install prompt; mandatory on AMO for new add-ons.
+        // Same disclosure as the Chrome Web Store privacy tab: the selected
+        // text (website content) and the user's API key (authentication info)
+        // go to flashcards.gg, only when the user saves or tests the key.
+        data_collection_permissions: { required: ['websiteContent', 'authenticationInfo'] },
+      },
     };
   }
   writeFileSync(join(out, 'manifest.json'), JSON.stringify(manifest, null, 2) + '\n');

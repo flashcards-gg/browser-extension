@@ -153,6 +153,6 @@
     "message": "Schlüssel entfernt."
   },
   "optionsPrivacy": {
-    "message": "Der markierte Text und die eingegebene Rückseite werden erst beim Speichern an flashcards.gg gesendet. Der Schlüssel bleibt nur in diesem Browser. Keine Analytik."
+    "message": "Der markierte Text und die eingegebene Rückseite werden erst beim Speichern oder bei „Auto“ an flashcards.gg gesendet. Der Schlüssel bleibt nur in diesem Browser. Keine Analytik."
   }
 }
