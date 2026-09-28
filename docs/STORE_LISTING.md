@@ -4,7 +4,7 @@
 |---|---|---|
 | Chrome Web Store | `dist/flashcards-gg-chrome-<version>.zip` | 0.1.0 submitted for review on 2026-09-28 (item id `lcbjiemkiefhbjfklbfcndnlindaafek`) |
 | Microsoft Edge Add-ons | `dist/flashcards-gg-edge-<version>.zip` (same files as Chrome) | 0.1.1 prepared, not submitted |
-| Firefox Add-ons (AMO) | `dist/flashcards-gg-firefox-<version>.zip` + `dist/flashcards-gg-source-<version>.zip` | 0.1.1 prepared, not submitted |
+| Firefox Add-ons (AMO) | `dist/flashcards-gg-firefox-<version>.zip` + `dist/flashcards-gg-source-<version>.zip` | 0.1.1 submitted for review on 2026-09-28 through the API (add-on id 3081124, https://addons.mozilla.org/firefox/addon/flashcards-gg/) |
 
 All packages come from `npm run build && npm run zip`. The manifest carries the localized name
 and short description for 30 languages (`_locales/`). Store screenshots: English or Spanish
@@ -75,12 +75,20 @@ content only.
 3. **Availability:** Public, all markets.
 4. **Properties:** Category Education (Productivity if Education is not offered); Website https://flashcards.gg; Support https://flashcards.gg/support; Mature content: no.
 5. **Privacy:** single purpose, permission justifications, remote code “No”, data usage (Authentication information, Website content) and the certifications from *Shared texts*; Privacy policy URL as above.
-6. **Store listings:** Partner Center creates one row per package language (30) and wants a **Description** (250–10,000 characters) and the **Extension logo** in each. Descriptions: `docs/store/EDGE_DESCRIPTIONS.md` (hand-written, every language). Logo: `docs/store/edge-logo-300.png` → *Duplicate this logo for all languages*. Screenshots (optional, 640×480 or 1280×800, up to 6): `docs/store/1-context-menu.png`, `2-in-page-form.png`, `3-options.png` (Chrome UI; retake in Edge when the Windows VM is at hand). Search terms (≤7, ≤30 chars each): `flashcards`, `flash cards`, `vocabulary`, `study`, `language learning`, `memorize`.
+6. **Store listings:** Partner Center creates one row per package language (30) and wants a **Description** (250–10,000 characters) and the **Extension logo** in each. Descriptions: `docs/store/EDGE_DESCRIPTIONS.md` (hand-written, every language). Logo: `docs/store/edge-logo-300.png` → *Duplicate this logo for all languages*. Screenshots (optional, 640×480 or 1280×800, up to 6): `docs/store/edge/1-context-menu.png`, `2-in-page-form.png`, `3-saved.png`, `4-options.png` — Edge 153 on Windows 11, 1280×800 RGB, sample sets. Search terms (≤7, ≤30 chars each): `flashcards`, `flash cards`, `vocabulary`, `study`, `language learning`, `memorize`.
 7. **Publish** → *Notes for certification* from *Shared texts*. Certification takes up to seven business days.
 
 Updates later: the Edge Add-ons API can upload a new package from CI (API key from Partner Center → Publish API); not wired up yet.
 
 ## Firefox Add-ons (addons.mozilla.org)
+
+How 0.1.1 went in (2026-09-28): AMO API credentials (JWT issuer/secret from
+https://addons.mozilla.org/developers/addon/api/key/) in the gitignored `.env`, then
+`web-ext sign --channel listed --amo-metadata <json> --upload-source-code dist/flashcards-gg-source-<v>.zip --approval-timeout 0`
+(the metadata JSON carries every field below), then the privacy policy through
+`PATCH /api/v5/addons/addon/flashcards-gg/eula_policy/` and the screenshots through
+`POST /api/v5/addons/addon/flashcards-gg/previews/` (AMO throttles after two uploads in a row). The same
+fields by hand in the Developer Hub:
 
 1. https://addons.mozilla.org/developers/ → **Submit a New Add-on** → *On this site* (listed).
 2. Upload `dist/flashcards-gg-firefox-0.1.1.zip`. Platforms: **Firefox only** — Firefox for Android has no context-menu API for extensions.
@@ -89,7 +97,7 @@ Updates later: the Edge Add-ons API can upload a new package from CI (API key fr
    - Name / summary: from the manifest (Flashcards.gg / “Add a card from selected text to your Flashcards.gg sets.”)
    - Add-on URL: `flashcards-gg`
    - Description: the English detailed description above
-   - Categories (up to 2): Language Support, Other
+   - Category: Language Support (AMO does not allow “Other” together with another category)
    - Experimental: no · Requires payment / non-free services: no (a Flashcards.gg account is needed, which the description says)
    - Support email support@flashcards.gg · Support website https://flashcards.gg/support · Homepage https://flashcards.gg
    - License: MIT
