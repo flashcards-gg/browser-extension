@@ -2,9 +2,9 @@
 
 | Store | Package | Status |
 |---|---|---|
-| Chrome Web Store | `dist/flashcards-gg-chrome-<version>.zip` | 0.1.0 submitted for review on 2026-09-28 (item id `lcbjiemkiefhbjfklbfcndnlindaafek`) |
-| Microsoft Edge Add-ons | `dist/flashcards-gg-edge-<version>.zip` (same files as Chrome) | 0.1.1 prepared, not submitted |
-| Firefox Add-ons (AMO) | `dist/flashcards-gg-firefox-<version>.zip` + `dist/flashcards-gg-source-<version>.zip` | 0.1.1 submitted for review on 2026-09-28 through the API (add-on id 3081124, https://addons.mozilla.org/firefox/addon/flashcards-gg/) |
+| Chrome Web Store | `dist/flashcards-gg-chrome-<version>.zip` | 0.1.0 live since 2026-09-29 (item id `lcbjiemkiefhbjfklbfcndnlindaafek`, https://chromewebstore.google.com/detail/flashcardsgg/lcbjiemkiefhbjfklbfcndnlindaafek); 0.1.1 package ready (same files as the live Edge 0.1.1, permissions unchanged → no re-consent prompt) |
+| Microsoft Edge Add-ons | `dist/flashcards-gg-edge-<version>.zip` (same files as Chrome) | 0.1.1 live (checked 2026-09-30; submitted 2026-09-28 through Partner Center; Product ID `d4bbc638-5f15-4b51-8859-8195dd3cf392`, Store ID `0RDCKGP10MF2`, CRX ID `paokjjmhommaggijlnobbjecndjaknec`) |
+| Firefox Add-ons (AMO) | `dist/flashcards-gg-firefox-<version>.zip` + `dist/flashcards-gg-source-<version>.zip` | 0.1.1 in review since 2026-09-28, submitted through the API (add-on id 3081124, https://addons.mozilla.org/firefox/addon/flashcards-gg/) |
 
 All packages come from `npm run build && npm run zip`. The manifest carries the localized name
 and short description for 30 languages (`_locales/`). Store screenshots: English or Spanish
@@ -65,7 +65,7 @@ content only.
 - **Category:** Education · **Language:** English
 - **Icon:** `icons/icon-128.png`
 - **Screenshots (1280×800, 24-bit PNG, no alpha):** `docs/store/1-context-menu.png`, `2-in-page-form.png`, `3-options.png`, taken in Chrome with `dist/chrome` loaded unpacked.
-- **To correct in the dashboard:** the description and the *Website content* disclosure submitted with 0.1.0 say the text is sent “only when the user presses Save”; Auto sends it too. Use the texts above (Store listing and Privacy tabs; no new package needed).
+- **Update to 0.1.1 (dashboard):** *Package* → upload `dist/flashcards-gg-chrome-0.1.1.zip`; *Store listing* → Description = the English detailed description above (the 0.1.0 text says “Nothing is sent until you press Save”; Auto sends the selection too); *Privacy* → the host-permission justification above (0.1.0's does not mention Auto). Data-usage checkboxes stay as they are (Authentication information, Website content). Then *Submit for review*.
 - Later releases: tag `v<version>` in this repo — `.github/workflows/release.yml` builds the zips and, once the Web Store API secrets exist in the repo, uploads the Chrome package as a draft.
 
 ## Microsoft Edge Add-ons (Partner Center)
@@ -73,7 +73,7 @@ content only.
 1. Partner Center → **Edge** workspace. The Edge program needs its own (free) registration, even with a Partner Center account for the Microsoft Store.
 2. **Create new extension** → upload `dist/flashcards-gg-edge-0.1.1.zip`.
 3. **Availability:** Public, all markets.
-4. **Properties:** Category Education (Productivity if Education is not offered); Website https://flashcards.gg; Support https://flashcards.gg/support; Mature content: no.
+4. **Properties:** Category Productivity (Edge has no Education category); Website https://flashcards.gg; Support https://flashcards.gg/support; Mature content: no.
 5. **Privacy:** single purpose, permission justifications, remote code “No”, data usage (Authentication information, Website content) and the certifications from *Shared texts*; Privacy policy URL as above.
 6. **Store listings:** Partner Center creates one row per package language (30) and wants a **Description** (250–10,000 characters) and the **Extension logo** in each. Descriptions: `docs/store/EDGE_DESCRIPTIONS.md` (hand-written, every language). Logo: `docs/store/edge-logo-300.png` → *Duplicate this logo for all languages*. Screenshots (optional, 640×480 or 1280×800, up to 6): `docs/store/edge/1-context-menu.png`, `2-in-page-form.png`, `3-saved.png`, `4-options.png` — Edge 153 on Windows 11, 1280×800 RGB, sample sets. Search terms (≤7, ≤30 chars each): `flashcards`, `flash cards`, `vocabulary`, `study`, `language learning`, `memorize`.
 7. **Publish** → *Notes for certification* from *Shared texts*. Certification takes up to seven business days.
