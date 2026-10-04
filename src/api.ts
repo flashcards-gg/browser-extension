@@ -7,7 +7,10 @@
  * blocked by the page's origin.
  */
 
-export const BASE_URL = 'https://flashcards.gg';
+declare const __API_BASE__: string | undefined;
+
+/** Production API; a dev build may point elsewhere (FCGG_API_BASE, scripts/build.mjs). */
+export const BASE_URL = typeof __API_BASE__ === 'string' ? __API_BASE__ : 'https://flashcards.gg';
 
 export interface SetSummary {
   id: string;

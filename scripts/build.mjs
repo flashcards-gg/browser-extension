@@ -1,15 +1,21 @@
-// Builds dist/<browser>/ for chrome, edge and firefox from one source tree.
-// One codebase, one manifest template; the per-browser differences are the
+// Builds dist/<browser>/ for chrome, edge, firefox and safari from one source
+// tree. One codebase, one manifest template; the per-browser differences are the
 // background declaration (service worker vs. event page scripts) and the
-// Firefox add-on id. Usage: node scripts/build.mjs [chrome|edge|firefox|all]
+// Firefox add-on id. Usage: node scripts/build.mjs [chrome|edge|firefox|safari|all]
+//
+// Dev only: FCGG_API_BASE=http://localhost:9090 points the build at a local
+// server (and adds http://localhost/* to the host permissions). Store packages
+// refuse to build with it set (scripts/zip.mjs, safari/build-safari.sh).
 import { build } from 'esbuild';
 import { cpSync, mkdirSync, readFileSync, rmSync, writeFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 
-const targets = ['chrome', 'edge', 'firefox'];
+const targets = ['chrome', 'edge', 'firefox', 'safari'];
 const want = process.argv[2] && process.argv[2] !== 'all' ? [process.argv[2]] : targets;
 const pkg = JSON.parse(readFileSync('package.json', 'utf8'));
 const template = JSON.parse(readFileSync('manifest.template.json', 'utf8'));
+const apiBase = process.env.FCGG_API_BASE || null;
+if (apiBase) console.warn(`DEV BUILD: API at ${apiBase} — not for the stores`);
 
 for (const browser of want) {
   if (!targets.includes(browser)) throw new Error(`unknown target ${browser}`);
@@ -29,12 +35,17 @@ for (const browser of want) {
     outdir: out,
     minify: false,
     sourcemap: false,
-    define: { __VERSION__: JSON.stringify(pkg.version), __BROWSER__: JSON.stringify(browser) },
+    define: {
+      __VERSION__: JSON.stringify(pkg.version),
+      __BROWSER__: JSON.stringify(browser),
+      ...(apiBase ? { __API_BASE__: JSON.stringify(apiBase) } : {}),
+    },
     logLevel: 'error',
   });
 
   const manifest = structuredClone(template);
   manifest.version = pkg.version;
+  if (apiBase) manifest.host_permissions = [...manifest.host_permissions, 'http://localhost/*'];
   if (browser === 'firefox') {
     // Firefox runs MV3 background as an event page, not a service worker.
     manifest.background = { scripts: ['background.js'] };
@@ -52,6 +63,12 @@ for (const browser of want) {
         data_collection_permissions: { required: ['websiteContent', 'authenticationInfo'] },
       },
     };
+  }
+  if (browser === 'safari') {
+    // Safari's MV3 background: a non-persistent page (scripts), the form Apple
+    // documents for every Safari with MV3; the Xcode project in safari/
+    // references dist/safari as the extension's resources.
+    manifest.background = { scripts: ['background.js'], persistent: false };
   }
   writeFileSync(join(out, 'manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
   cpSync('icons', join(out, 'icons'), { recursive: true });

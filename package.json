@@ -2,7 +2,7 @@
   "name": "@flashcards-gg/browser-extension",
   "version": "0.1.1",
   "private": true,
-  "description": "Add a card from selected text to your Flashcards.gg sets (Chrome, Edge, Firefox).",
+  "description": "Add a card from selected text to your Flashcards.gg sets (Chrome, Edge, Firefox, Safari).",
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -10,6 +10,7 @@
     "build:chrome": "node scripts/build.mjs chrome",
     "build:firefox": "node scripts/build.mjs firefox",
     "build:edge": "node scripts/build.mjs edge",
+    "build:safari": "node scripts/build.mjs safari",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "lint": "web-ext lint --source-dir dist/firefox --self-hosted",

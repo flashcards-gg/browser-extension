@@ -1,8 +1,8 @@
 # Flashcards.gg browser extension
 
-Adds **Add to Flashcards.gg** to the right-click menu on selected text in Chrome, Edge and Firefox. The selected word or phrase becomes the front of a new card in one of your [Flashcards.gg](https://flashcards.gg) sets, saved through the public API with your own API key.
+Adds **Add to Flashcards.gg** to the right-click menu on selected text in Chrome, Edge, Firefox and Safari on the Mac. The selected word or phrase becomes the front of a new card in one of your [Flashcards.gg](https://flashcards.gg) sets, saved through the public API with your own API key.
 
-**Install:** [Chrome Web Store](https://chromewebstore.google.com/detail/flashcardsgg/lcbjiemkiefhbjfklbfcndnlindaafek) · [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/paokjjmhommaggijlnobbjecndjaknec) · Firefox Add-ons: in review. It can also be loaded unpacked from a local build (see below).
+**Install:** [Chrome Web Store](https://chromewebstore.google.com/detail/flashcardsgg/lcbjiemkiefhbjfklbfcndnlindaafek) · [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/flashcards-gg/) · [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/paokjjmhommaggijlnobbjecndjaknec). Safari: the Mac app *Flashcards.gg for Safari* is built from [`safari/`](safari/README.md); its App Store listing is in preparation. It can also be loaded unpacked from a local build (see below).
 
 | | |
 |---|---|
@@ -17,7 +17,7 @@ Adds **Add to Flashcards.gg** to the right-click menu on selected text in Chrome
 3. Type the back, or press **Auto** to let the AI write it against the set's back description (`POST /api/v1/sets/{id}/cards/complete`, the same daily allowance as the app's Auto).
 4. Save. The card is created with `POST /api/v1/sets/{id}/cards` (`dedupe: true`, so a front that already exists in the set is shown instead of duplicated) and reaches your devices through the app's normal sync.
 
-One codebase for Chrome, Edge and Firefox: Manifest V3, with the per-browser manifests generated from a single template.
+One codebase for Chrome, Edge, Firefox and Safari: Manifest V3, with the per-browser manifests generated from a single template. Safari takes extensions only inside a Mac app, so `safari/` holds a small container app (an Xcode project) that ships `dist/safari`.
 
 ## Permissions
 
@@ -33,7 +33,7 @@ Node 22 or newer.
 
 ```bash
 npm ci
-npm run build          # dist/chrome, dist/edge, dist/firefox
+npm run build          # dist/chrome, dist/edge, dist/firefox, dist/safari
 npm test               # unit tests (vitest)
 npm run typecheck
 npm run lint           # web-ext lint on dist/firefox (the Firefox-shaped manifest)
@@ -42,7 +42,7 @@ npm run zip            # dist/flashcards-gg-<browser>-<version>.zip
 
 To try it unpacked: Chrome or Edge → `chrome://extensions` → Developer mode → *Load unpacked* → `dist/chrome` (or `dist/edge`). Firefox → `about:debugging#/runtime/this-firefox` → *Load Temporary Add-on* → `dist/firefox/manifest.json`. Then open the extension's options, paste an API key, select text on any page and right-click.
 
-The per-browser manifests are generated from `manifest.template.json` by `scripts/build.mjs`; the only differences are the background declaration (service worker vs. event page) and, for Firefox, the add-on id, the minimum version (140) and the declared data collection (`websiteContent`, `authenticationInfo`). Firefox grants the `flashcards.gg` host permission at install but lets the user revoke it in `about:addons`; the extension then asks for it again on the next use.
+The per-browser manifests are generated from `manifest.template.json` by `scripts/build.mjs`; the only differences are the background declaration (service worker vs. event page) and, for Firefox, the add-on id, the minimum version (140) and the declared data collection (`websiteContent`, `authenticationInfo`). Firefox grants the `flashcards.gg` host permission at install but lets the user revoke it in `about:addons`; the extension then asks for it again on the next use. Safari never grants it at install: without it Safari treats the API calls as cross-origin and they fail, so in Safari the extension asks for it on the first use as well (Safari shows its own prompt). The Safari manifest also uses a non-persistent background page instead of a service worker.
 
 ### Reproducing a store build (for add-on reviewers)
 

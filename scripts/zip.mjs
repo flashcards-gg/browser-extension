@@ -8,6 +8,10 @@ import { existsSync, readFileSync, rmSync } from 'node:fs';
 const pkg = JSON.parse(readFileSync('package.json', 'utf8'));
 for (const browser of ['chrome', 'edge', 'firefox']) {
   if (!existsSync(`dist/${browser}/manifest.json`)) continue;
+  const manifest = JSON.parse(readFileSync(`dist/${browser}/manifest.json`, 'utf8'));
+  if (manifest.host_permissions.some((h) => h.startsWith('http://localhost'))) {
+    throw new Error(`dist/${browser} is a dev build (FCGG_API_BASE) — rebuild without it`);
+  }
   const zip = `flashcards-gg-${browser}-${pkg.version}.zip`;
   rmSync(`dist/${zip}`, { force: true }); // `zip` adds to an existing archive
   execFileSync('zip', ['-qr', `../${zip}`, '.'], { cwd: `dist/${browser}` });

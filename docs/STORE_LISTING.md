@@ -4,6 +4,7 @@
 |---|---|---|
 | Chrome Web Store | `dist/flashcards-gg-chrome-<version>.zip` | 0.1.0 live since 2026-09-29 (item id `lcbjiemkiefhbjfklbfcndnlindaafek`, https://chromewebstore.google.com/detail/flashcardsgg/lcbjiemkiefhbjfklbfcndnlindaafek); 0.1.1 package ready (same files as the live Edge 0.1.1, permissions unchanged → no re-consent prompt) |
 | Microsoft Edge Add-ons | `dist/flashcards-gg-edge-<version>.zip` (same files as Chrome) | 0.1.1 live (checked 2026-09-30; submitted 2026-09-28 through Partner Center; Product ID `d4bbc638-5f15-4b51-8859-8195dd3cf392`, Store ID `0RDCKGP10MF2`, CRX ID `paokjjmhommaggijlnobbjecndjaknec`) |
+| Mac App Store (Safari) | `safari/build/pkg/*.pkg` from `safari/build-safari.sh` | not submitted — app record to be created (bundle ID `gg.flashcards.safari`) |
 | Firefox Add-ons (AMO) | `dist/flashcards-gg-firefox-<version>.zip` + `dist/flashcards-gg-source-<version>.zip` | 0.1.1 in review since 2026-09-28, submitted through the API (add-on id 3081124, https://addons.mozilla.org/firefox/addon/flashcards-gg/) |
 
 All packages come from `npm run build && npm run zip`. The manifest carries the localized name
@@ -106,3 +107,35 @@ fields by hand in the Developer Hub:
 5. Screenshots (after submission, *Edit Product Page → Images*): `docs/store/firefox/1-context-menu.png`, `2-in-page-form.png`, `3-saved.png` — Firefox 156 on Linux, full screen, 1280×800. The sets shown are sample data.
 
 The data the extension sends is declared in the Firefox manifest (`data_collection_permissions`: `websiteContent`, `authenticationInfo`) and appears in Firefox's install prompt and on the listing; it must stay consistent with the privacy policy. Updates later: `web-ext sign --channel=listed` with AMO API credentials can submit new versions from CI; not wired up yet.
+
+## Mac App Store — Flashcards.gg for Safari (draft, not submitted)
+
+A separate app record with its own listing; English below, the other 29 languages to be
+translated by hand before submission.
+
+- **Name (≤30):** Flashcards.gg for Safari
+- **Subtitle (≤30):** Turn selected text into cards
+- **Bundle ID / SKU:** `gg.flashcards.safari` / `flashcards-gg-safari`
+- **Platform / minimum:** macOS 12
+- **Category:** Productivity; secondary Education
+- **Price:** no charge (the price tier only; the listing text does not say "free")
+- **URLs:** support https://flashcards.gg/support · marketing https://flashcards.gg/extension · privacy https://flashcards.gg/privacy
+- **Promotional text (≤170):** Select a word on any page, Control-click it and add it to your Flashcards.gg set. Type the back or let Auto write it.
+- **Description:**
+
+  Add cards to your Flashcards.gg sets without leaving the page you are reading in Safari.
+
+  Select a word or a phrase, Control-click it and choose “Add to Flashcards.gg”. A small form opens right on the page: the selection is already the front and the set is the one you used last. Type the back, or press Auto to have it written for you, then save. The card appears in your set on every device where you use Flashcards.gg.
+
+  To start: open the app, turn on Flashcards.gg in Safari Settings › Extensions, then click the Flashcards.gg button in the Safari toolbar and paste your personal API key.
+
+  The extension talks only to flashcards.gg: the selected text is sent there when you press Save or Auto, and your API key is stored only in Safari on this Mac. No analytics.
+
+  You need a Flashcards.gg account and a personal API key, which you create in your account at flashcards.gg (Account › API keys).
+
+- **Keywords (≤100):** flashcards,vocabulary,language,study,words,reading,spaced repetition,memorize,translate
+- **Age rating:** 4+ (no objectionable content; no web browsing inside the app itself)
+- **App Privacy (draft):** User Content › Other User Content (the selected text and the back) — collected, linked to the user's account, used for App Functionality, not used for tracking. Nothing else is collected; the API key is the user's own credential, kept on the device and sent only to flashcards.gg.
+- **Review notes (draft):** The app is a container for a Safari web extension. To test: open the app → Open Safari Settings → turn on Flashcards.gg → allow it on flashcards.gg when Safari asks → click the Flashcards.gg button in the Safari toolbar → paste the API key below → Save key → select a word on any web page → Control-click → Add to Flashcards.gg → Save. Test account API key: *(the reviewer account's key, added at submission — never committed)*.
+- **Screenshots:** 2880×1800, English or Spanish content only: the context menu in Safari, the in-page form with Auto, the saved state, the app window.
+

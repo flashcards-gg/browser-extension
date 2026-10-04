@@ -31,7 +31,7 @@ function client(apiKey: string): ApiClient {
 
 // ── menu ─────────────────────────────────────────────────────────────────────
 
-chrome.runtime.onInstalled.addListener(() => {
+function createMenu(): void {
   chrome.contextMenus.removeAll(() => {
     chrome.contextMenus.create({
       id: MENU_ID,
@@ -39,7 +39,12 @@ chrome.runtime.onInstalled.addListener(() => {
       contexts: ['selection'],
     });
   });
-});
+}
+
+// Chrome, Edge and Firefox keep the item from onInstalled; Safari can drop it
+// when it restarts, so it is made again at every browser start.
+chrome.runtime.onInstalled.addListener(createMenu);
+chrome.runtime.onStartup.addListener(createMenu);
 
 chrome.action.onClicked.addListener(() => {
   void chrome.runtime.openOptionsPage();

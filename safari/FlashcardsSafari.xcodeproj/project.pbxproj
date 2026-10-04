@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5564DBFFC106295D5AE25232 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B5110BAFFEC1D976A11A5 /* ContentView.swift */; };
+		6B7E7146B350D5D79F15E8B0 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 0E55D8F5F01C1E7A412A1AA2 /* Localizable.xcstrings */; };
+		FA5D7237307274370031386A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5D7236307274370031386A /* AppDelegate.swift */; };
+		FA5D7248307274380031386A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5D7247307274380031386A /* Assets.xcassets */; };
+		FA5D724F307274380031386A /* Flashcards.gg for Safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FA5D724E307274380031386A /* Flashcards.gg for Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FA5D7254307274380031386A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5D7253307274380031386A /* SafariWebExtensionHandler.swift */; };
+		FA5D7268307274390031386A /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = FA5D7260307274390031386A /* background.js */; };
+		FA5D7269307274390031386A /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = FA5D7261307274390031386A /* options.js */; };
+		FA5D726A307274390031386A /* icons in Resources */ = {isa = PBXBuildFile; fileRef = FA5D7262307274390031386A /* icons */; };
+		FA5D726B307274390031386A /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FA5D7263307274390031386A /* manifest.json */; };
+		FA5D726C307274390031386A /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = FA5D7264307274390031386A /* options.html */; };
+		FA5D726D307274390031386A /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = FA5D7265307274390031386A /* _locales */; };
+		FA5D726E307274390031386A /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = FA5D7266307274390031386A /* content.js */; };
+		FA5D726F307274390031386A /* options.css in Resources */ = {isa = PBXBuildFile; fileRef = FA5D7267307274390031386A /* options.css */; };
+		FD9B8625EF84491B6FEE7653 /* ExtensionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341B0A38452AB520210E836 /* ExtensionState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA5D7250307274380031386A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5D722B307274370031386A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5D724D307274380031386A;
+			remoteInfo = "Flashcards.gg for Safari Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA5D725B307274380031386A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FA5D724F307274380031386A /* Flashcards.gg for Safari Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0E55D8F5F01C1E7A412A1AA2 /* Localizable.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		B76B5110BAFFEC1D976A11A5 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C341B0A38452AB520210E836 /* ExtensionState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExtensionState.swift; sourceTree = "<group>"; };
+		FA5D7233307274370031386A /* Flashcards.gg for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flashcards.gg for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5D7236307274370031386A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA5D7247307274380031386A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA5D7249307274380031386A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5D724E307274380031386A /* Flashcards.gg for Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Flashcards.gg for Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5D7253307274380031386A /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		FA5D7255307274380031386A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5D7260307274390031386A /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../dist/safari/background.js; sourceTree = "<group>"; };
+		FA5D7261307274390031386A /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.js; path = ../../dist/safari/options.js; sourceTree = "<group>"; };
+		FA5D7262307274390031386A /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../dist/safari/icons; sourceTree = "<group>"; };
+		FA5D7263307274390031386A /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../dist/safari/manifest.json; sourceTree = "<group>"; };
+		FA5D7264307274390031386A /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = ../../dist/safari/options.html; sourceTree = "<group>"; };
+		FA5D7265307274390031386A /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../../dist/safari/_locales; sourceTree = "<group>"; };
+		FA5D7266307274390031386A /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../../dist/safari/content.js; sourceTree = "<group>"; };
+		FA5D7267307274390031386A /* options.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = options.css; path = ../../dist/safari/options.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA5D7230307274370031386A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5D724B307274380031386A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA5D722A307274370031386A = {
+			isa = PBXGroup;
+			children = (
+				FA5D7235307274370031386A /* App */,
+				FA5D7252307274380031386A /* Extension */,
+				FA5D7234307274370031386A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA5D7234307274370031386A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D7233307274370031386A /* Flashcards.gg for Safari.app */,
+				FA5D724E307274380031386A /* Flashcards.gg for Safari Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA5D7235307274370031386A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D7236307274370031386A /* AppDelegate.swift */,
+				FA5D7247307274380031386A /* Assets.xcassets */,
+				FA5D7249307274380031386A /* Info.plist */,
+				C341B0A38452AB520210E836 /* ExtensionState.swift */,
+				B76B5110BAFFEC1D976A11A5 /* ContentView.swift */,
+				0E55D8F5F01C1E7A412A1AA2 /* Localizable.xcstrings */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FA5D7252307274380031386A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D725F307274390031386A /* Resources */,
+				FA5D7253307274380031386A /* SafariWebExtensionHandler.swift */,
+				FA5D7255307274380031386A /* Info.plist */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FA5D725F307274390031386A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D7260307274390031386A /* background.js */,
+				FA5D7261307274390031386A /* options.js */,
+				FA5D7262307274390031386A /* icons */,
+				FA5D7263307274390031386A /* manifest.json */,
+				FA5D7264307274390031386A /* options.html */,
+				FA5D7265307274390031386A /* _locales */,
+				FA5D7266307274390031386A /* content.js */,
+				FA5D7267307274390031386A /* options.css */,
+			);
+			name = Resources;
+			path = Extension;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA5D7232307274370031386A /* Flashcards.gg for Safari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5D725C307274380031386A /* Build configuration list for PBXNativeTarget "Flashcards.gg for Safari" */;
+			buildPhases = (
+				FA5D722F307274370031386A /* Sources */,
+				FA5D7230307274370031386A /* Frameworks */,
+				FA5D7231307274370031386A /* Resources */,
+				FA5D725B307274380031386A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5D7251307274380031386A /* PBXTargetDependency */,
+			);
+			name = "Flashcards.gg for Safari";
+			productName = "Flashcards.gg for Safari";
+			productReference = FA5D7233307274370031386A /* Flashcards.gg for Safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA5D724D307274380031386A /* Flashcards.gg for Safari Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5D7258307274380031386A /* Build configuration list for PBXNativeTarget "Flashcards.gg for Safari Extension" */;
+			buildPhases = (
+				FA5D724A307274380031386A /* Sources */,
+				FA5D724B307274380031386A /* Frameworks */,
+				FA5D724C307274380031386A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flashcards.gg for Safari Extension";
+			productName = "Flashcards.gg for Safari Extension";
+			productReference = FA5D724E307274380031386A /* Flashcards.gg for Safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA5D722B307274370031386A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					FA5D7232307274370031386A = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					FA5D724D307274380031386A = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = FA5D722E307274370031386A /* Build configuration list for PBXProject "FlashcardsSafari" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+				cs,
+				da,
+				de,
+				el,
+				es,
+				fi,
+				fr,
+				he,
+				hi,
+				hr,
+				hu,
+				id,
+				it,
+				ja,
+				ko,
+				nl,
+				no,
+				pl,
+				"pt-BR",
+				"pt-PT",
+				ro,
+				ru,
+				sv,
+				th,
+				tr,
+				uk,
+				vi,
+				"zh-Hans",
+			);
+			mainGroup = FA5D722A307274370031386A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FA5D7234307274370031386A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA5D7232307274370031386A /* Flashcards.gg for Safari */,
+				FA5D724D307274380031386A /* Flashcards.gg for Safari Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA5D7231307274370031386A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5D7248307274380031386A /* Assets.xcassets in Resources */,
+				6B7E7146B350D5D79F15E8B0 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5D724C307274380031386A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5D726D307274390031386A /* _locales in Resources */,
+				FA5D726B307274390031386A /* manifest.json in Resources */,
+				FA5D726A307274390031386A /* icons in Resources */,
+				FA5D726C307274390031386A /* options.html in Resources */,
+				FA5D7268307274390031386A /* background.js in Resources */,
+				FA5D726E307274390031386A /* content.js in Resources */,
+				FA5D726F307274390031386A /* options.css in Resources */,
+				FA5D7269307274390031386A /* options.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA5D722F307274370031386A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5D7237307274370031386A /* AppDelegate.swift in Sources */,
+				FD9B8625EF84491B6FEE7653 /* ExtensionState.swift in Sources */,
+				5564DBFFC106295D5AE25232 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5D724A307274380031386A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5D7254307274380031386A /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA5D7251307274380031386A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA5D724D307274380031386A /* Flashcards.gg for Safari Extension */;
+			targetProxy = FA5D7250307274380031386A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA5D7256307274380031386A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA5D7257307274380031386A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FA5D7259307274380031386A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4QX85ZUTM;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Extension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Flashcards.gg;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Flashcards.gg. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 0.1.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gg.flashcards.safari.extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FA5D725A307274380031386A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4QX85ZUTM;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Extension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Flashcards.gg;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Flashcards.gg. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 0.1.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gg.flashcards.safari.extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FA5D725D307274380031386A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4QX85ZUTM;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Flashcards.gg for Safari";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Flashcards.gg. All rights reserved.";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gg.flashcards.safari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FA5D725E307274380031386A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4QX85ZUTM;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Flashcards.gg for Safari";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Flashcards.gg. All rights reserved.";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gg.flashcards.safari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA5D722E307274370031386A /* Build configuration list for PBXProject "FlashcardsSafari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5D7256307274380031386A /* Debug */,
+				FA5D7257307274380031386A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5D7258307274380031386A /* Build configuration list for PBXNativeTarget "Flashcards.gg for Safari Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5D7259307274380031386A /* Debug */,
+				FA5D725A307274380031386A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5D725C307274380031386A /* Build configuration list for PBXNativeTarget "Flashcards.gg for Safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5D725D307274380031386A /* Debug */,
+				FA5D725E307274380031386A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA5D722B307274370031386A /* Project object */;
+}
