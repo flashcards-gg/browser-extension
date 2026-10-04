@@ -1,0 +1,1 @@
+sanasto,kieli,opiskelu,sanat,lukeminen,kertaus,muistaa,käännös,oppia,kortit

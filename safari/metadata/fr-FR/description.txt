@@ -1,0 +1,9 @@
+Ajoutez des cartes à vos ensembles Flashcards.gg sans quitter la page que vous lisez dans Safari.
+
+Sélectionnez un mot ou une expression, cliquez dessus en maintenant la touche Contrôle enfoncée et choisissez « Ajouter à Flashcards.gg ». Un petit formulaire s’ouvre directement sur la page : la sélection est déjà le recto et l’ensemble est le dernier que vous avez utilisé. Écrivez le verso, ou cliquez sur Auto pour qu’il soit rédigé pour vous, puis sur Enregistrer. La carte apparaît dans votre ensemble sur tous les appareils où vous utilisez Flashcards.gg.
+
+Pour commencer : ouvrez l’app, activez Flashcards.gg dans Réglages de Safari › Extensions, puis cliquez sur le bouton Flashcards.gg dans la barre d’outils de Safari et collez votre clé API personnelle.
+
+L’extension ne communique qu’avec flashcards.gg : le texte sélectionné y est envoyé quand vous cliquez sur Enregistrer ou Auto, et votre clé API est conservée uniquement dans Safari sur ce Mac. Aucune mesure d’audience.
+
+Il vous faut un compte Flashcards.gg et une clé API personnelle, que vous créez dans votre compte sur flashcards.gg (Compte › Clés API).

@@ -1,0 +1,9 @@
+Safari’de okuduğunuz sayfadan ayrılmadan Flashcards.gg setlerinize kart ekleyin.
+
+Bir sözcük ya da ifade seçin, Control tuşuna basılı tutarak tıklayın ve “Flashcards.gg’ye ekle” seçeneğini seçin. Sayfanın üzerinde küçük bir form açılır: seçtiğiniz metin zaten ön yüzdedir ve set de en son kullandığınız settir. Arka yüzü yazın ya da sizin için yazılması için Oto’ya, ardından Kaydet’e basın. Kart, Flashcards.gg’yi kullandığınız her cihazda setinizde görünür.
+
+Başlamak için: uygulamayı açın, Flashcards.gg’yi Safari Ayarları › Uzantılar bölümünde açın, ardından Safari araç çubuğundaki Flashcards.gg düğmesine tıklayın ve kişisel API anahtarınızı yapıştırın.
+
+Uzantı yalnızca flashcards.gg ile iletişim kurar: seçtiğiniz metin, Kaydet’e ya da Oto’ya bastığınızda oraya gönderilir; API anahtarınız yalnızca bu Mac’teki Safari’de saklanır. Analiz yok.
+
+Bir Flashcards.gg hesabına ve flashcards.gg’de hesabınızda (Hesap › API anahtarları) oluşturacağınız kişisel bir API anahtarına ihtiyacınız var.

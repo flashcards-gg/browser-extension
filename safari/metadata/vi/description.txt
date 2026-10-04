@@ -1,0 +1,9 @@
+Thêm thẻ vào các bộ Flashcards.gg của bạn mà không phải rời khỏi trang bạn đang đọc trong Safari.
+
+Chọn một từ hoặc cụm từ, Control-bấm vào đó và chọn “Thêm vào Flashcards.gg”. Một biểu mẫu nhỏ mở ra ngay trên trang: phần đã chọn sẵn là mặt trước, còn bộ thẻ là bộ bạn dùng gần nhất. Viết mặt sau, hoặc bấm Tự động để được viết giúp, rồi bấm Lưu. Thẻ sẽ xuất hiện trong bộ của bạn trên mọi thiết bị bạn dùng Flashcards.gg.
+
+Để bắt đầu: mở ứng dụng, bật Flashcards.gg trong Cài đặt Safari › Tiện ích mở rộng, sau đó bấm nút Flashcards.gg trên thanh công cụ Safari và dán khóa API cá nhân của bạn.
+
+Tiện ích chỉ giao tiếp với flashcards.gg: văn bản đã chọn được gửi đến đó khi bạn bấm Lưu hoặc Tự động, và khóa API chỉ được lưu trong Safari trên máy Mac này. Không có phân tích.
+
+Bạn cần một tài khoản Flashcards.gg và một khóa API cá nhân, được tạo trong tài khoản của bạn tại flashcards.gg (Tài khoản › Khóa API).

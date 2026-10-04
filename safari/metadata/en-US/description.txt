@@ -1,0 +1,9 @@
+Add cards to your Flashcards.gg sets without leaving the page you are reading in Safari.
+
+Select a word or a phrase, Control-click it and choose “Add to Flashcards.gg”. A small form opens right on the page: the selection is already the front and the set is the one you used last. Type the back, or press Auto to have it written for you, then press Save. The card appears in your set on every device where you use Flashcards.gg.
+
+To start: open the app, turn on Flashcards.gg in Safari Settings › Extensions, then click the Flashcards.gg button in the Safari toolbar and paste your personal API key.
+
+The extension talks only to flashcards.gg: the selected text is sent there when you press Save or Auto, and your API key is stored only in Safari on this Mac. No analytics.
+
+You need a Flashcards.gg account and a personal API key, which you create in your account at flashcards.gg (Account › API keys).

@@ -1,0 +1,9 @@
+Adj kártyákat a Flashcards.gg-csomagjaidhoz anélkül, hogy elhagynád a Safariban olvasott oldalt.
+
+Jelölj ki egy szót vagy kifejezést, kattints rá a Control billentyűt lenyomva tartva, és válaszd a „Hozzáadás a Flashcards.gg-hez” lehetőséget. Közvetlenül az oldalon megnyílik egy kis űrlap: a kijelölés már az előlap, a csomag pedig az, amelyiket legutóbb használtad. Írd meg a hátlapot, vagy nyomd meg az Auto gombot, hogy megírja helyetted, majd a Mentés gombot. A kártya minden eszközön megjelenik a csomagodban, ahol a Flashcards.gg-t használod.
+
+Így kezdj neki: nyisd meg az appot, kapcsold be a Flashcards.gg-t a Safari beállításai › Bővítmények részen, majd kattints a Flashcards.gg gombra a Safari eszközsorában, és illeszd be a személyes API-kulcsodat.
+
+A bővítmény csak a flashcards.gg-vel kommunikál: a kijelölt szöveg akkor kerül oda, amikor a Mentés vagy az Auto gombot megnyomod, az API-kulcsod pedig csak ennek a Macnek a Safarijában tárolódik. Nincs analitika.
+
+Szükséged van egy Flashcards.gg-fiókra és egy személyes API-kulcsra, amelyet a flashcards.gg-n a fiókodban hozol létre (Fiók › API-kulcsok).

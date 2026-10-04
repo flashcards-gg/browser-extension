@@ -1,0 +1,9 @@
+Nimm Karten in deine Flashcards.gg-Sets auf, ohne die Seite zu verlassen, die du gerade in Safari liest.
+
+Markiere ein Wort oder eine Wendung, klicke es mit gedrückter ctrl-Taste an und wähle „Zu Flashcards.gg hinzufügen“. Direkt auf der Seite öffnet sich ein kleines Formular: Die Auswahl ist schon die Vorderseite, und das Set ist das zuletzt verwendete. Schreib die Rückseite oder klicke auf Auto, damit sie für dich geschrieben wird, und dann auf Speichern. Die Karte erscheint in deinem Set auf jedem Gerät, auf dem du Flashcards.gg nutzt.
+
+So geht’s los: Öffne die App, aktiviere Flashcards.gg in den Safari-Einstellungen › Erweiterungen, klicke dann in der Safari-Symbolleiste auf die Taste „Flashcards.gg“ und füge deinen persönlichen API-Schlüssel ein.
+
+Die Erweiterung spricht nur mit flashcards.gg: Der markierte Text wird dorthin gesendet, wenn du auf Speichern oder Auto klickst, und dein API-Schlüssel wird nur in Safari auf diesem Mac gespeichert. Keine Analysedienste.
+
+Du brauchst ein Flashcards.gg-Konto und einen persönlichen API-Schlüssel, den du in deinem Konto auf flashcards.gg erstellst (Konto › API-Schlüssel).

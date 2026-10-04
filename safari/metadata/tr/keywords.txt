@@ -1,0 +1,1 @@
+kelime,dil,ders,sözcük,okuma,tekrar,ezber,çeviri,öğrenme,kartlar

@@ -1,0 +1,9 @@
+Přidávejte kartičky do svých sad na Flashcards.gg, aniž byste opustili stránku, kterou v Safari čtete.
+
+Označte slovo nebo frázi, klikněte na ně se stisknutou klávesou Control a vyberte „Přidat do Flashcards.gg“. Přímo na stránce se otevře malý formulář: výběr už je přední stranou a sada je ta, kterou jste použili naposledy. Napište zadní stranu, nebo stiskněte Auto a nechte ji napsat, a pak stiskněte Uložit. Kartička se objeví ve vaší sadě na každém zařízení, kde Flashcards.gg používáte.
+
+Jak začít: otevřete aplikaci, zapněte Flashcards.gg v Safari: Nastavení › Rozšíření, pak klikněte na tlačítko Flashcards.gg na panelu nástrojů Safari a vložte svůj osobní API klíč.
+
+Rozšíření komunikuje jen s flashcards.gg: vybraný text se tam odešle, když stisknete Uložit nebo Auto, a váš API klíč je uložen jen v Safari na tomto Macu. Žádná analytika.
+
+Potřebujete účet Flashcards.gg a osobní API klíč, který si vytvoříte ve svém účtu na flashcards.gg (Účet › API klíče).

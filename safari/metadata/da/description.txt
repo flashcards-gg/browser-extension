@@ -1,0 +1,9 @@
+Føj kort til dine Flashcards.gg-sæt uden at forlade den side, du læser i Safari.
+
+Marker et ord eller en sætning, ctrl-klik på det, og vælg »Føj til Flashcards.gg«. En lille formular åbner direkte på siden: Markeringen er allerede forsiden, og sættet er det, du brugte sidst. Skriv bagsiden, eller tryk på Auto for at få den skrevet, og tryk så på Gem. Kortet dukker op i dit sæt på alle enheder, hvor du bruger Flashcards.gg.
+
+Sådan kommer du i gang: Åbn appen, slå Flashcards.gg til i Safari-indstillinger › Udvidelser, klik derefter på Flashcards.gg-knappen på Safaris værktøjslinje, og indsæt din personlige API-nøgle.
+
+Udvidelsen taler kun med flashcards.gg: Den markerede tekst sendes dertil, når du trykker på Gem eller Auto, og din API-nøgle gemmes kun i Safari på denne Mac. Ingen analyse.
+
+Du skal bruge en Flashcards.gg-konto og en personlig API-nøgle, som du opretter på din konto på flashcards.gg (Konto › API-nøgler).

@@ -1,0 +1,9 @@
+Adaugă carduri în seturile tale Flashcards.gg fără să părăsești pagina pe care o citești în Safari.
+
+Selectează un cuvânt sau o expresie, fă Control-clic pe ele și alege „Adaugă în Flashcards.gg”. Pe pagină se deschide un formular mic: selecția este deja fața cardului, iar setul este cel folosit ultima dată. Scrie versoul sau apasă Auto ca să fie scris pentru tine, apoi Salvează. Cardul apare în setul tău pe fiecare dispozitiv pe care folosești Flashcards.gg.
+
+Pentru început: deschide aplicația, activează Flashcards.gg în Configurări Safari › Extensii, apoi fă clic pe butonul Flashcards.gg din bara de instrumente Safari și lipește cheia ta API personală.
+
+Extensia comunică doar cu flashcards.gg: textul selectat este trimis acolo când apeși Salvează sau Auto, iar cheia API este păstrată doar în Safari pe acest Mac. Fără analize.
+
+Ai nevoie de un cont Flashcards.gg și de o cheie API personală, pe care o creezi în contul tău pe flashcards.gg (Cont › Chei API).

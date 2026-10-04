@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased — Safari
+## 0.2.0 — Safari
 
 - Safari on the Mac: `npm run build:safari` builds `dist/safari`, and `safari/` holds the container app *Flashcards.gg for Safari* (Xcode project, macOS 12+, 30 languages) for the Mac App Store; `safari/build-safari.sh` makes the store package.
 - Safari: the extension asks Safari for access to flashcards.gg on first use (Safari does not grant host permissions at install, and without them it blocks the API calls as cross-origin).

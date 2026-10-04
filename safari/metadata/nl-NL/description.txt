@@ -1,0 +1,9 @@
+Voeg kaarten toe aan je Flashcards.gg-sets zonder de pagina te verlaten die je in Safari leest.
+
+Selecteer een woord of zin, klik erop met de Control-toets ingedrukt en kies ‘Toevoegen aan Flashcards.gg’. Er opent een klein formulier op de pagina zelf: de selectie is al de voorkant en de set is de set die je het laatst gebruikte. Typ de achterkant, of klik op Auto om hem voor je te laten schrijven, en daarna op Opslaan. De kaart verschijnt in je set op elk apparaat waarop je Flashcards.gg gebruikt.
+
+Zo begin je: open de app, zet Flashcards.gg aan in Safari-instellingen › Extensies, klik dan op de Flashcards.gg-knop in de Safari-knoppenbalk en plak je persoonlijke API-sleutel.
+
+De extensie praat alleen met flashcards.gg: de geselecteerde tekst wordt daarheen gestuurd als je op Opslaan of Auto klikt, en je API-sleutel wordt alleen in Safari op deze Mac bewaard. Geen analytics.
+
+Je hebt een Flashcards.gg-account nodig en een persoonlijke API-sleutel, die je in je account op flashcards.gg aanmaakt (Account › API-sleutels).

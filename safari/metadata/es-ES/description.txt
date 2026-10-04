@@ -1,0 +1,9 @@
+Añade tarjetas a tus conjuntos de Flashcards.gg sin salir de la página que estás leyendo en Safari.
+
+Selecciona una palabra o una frase, haz clic en ella con la tecla Control pulsada y elige «Añadir a Flashcards.gg». Se abre un pequeño formulario en la misma página: la selección ya es el frente y el conjunto es el último que usaste. Escribe el dorso o pulsa Auto para que se escriba solo, y luego Guardar. La tarjeta aparece en tu conjunto en todos los dispositivos donde usas Flashcards.gg.
+
+Para empezar: abre la app, activa Flashcards.gg en Ajustes de Safari › Extensiones, haz clic en el botón de Flashcards.gg de la barra de herramientas de Safari y pega tu clave de API personal.
+
+La extensión solo se comunica con flashcards.gg: el texto seleccionado se envía allí cuando pulsas Guardar o Auto, y tu clave de API se guarda solo en Safari en este Mac. Sin analítica.
+
+Necesitas una cuenta de Flashcards.gg y una clave de API personal, que creas en tu cuenta en flashcards.gg (Cuenta › Claves de API).

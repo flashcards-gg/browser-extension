@@ -1,0 +1,1 @@
+vocabulary,language,study,words,reading,spaced repetition,memorize,translate,learn,cards

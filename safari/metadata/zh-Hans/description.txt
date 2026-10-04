@@ -1,0 +1,9 @@
+无需离开你在 Safari 中阅读的页面，就能把卡片添加到你的 Flashcards.gg 卡片集。
+
+选中一个词或短语，按住 Control 键点按，然后选择“添加到 Flashcards.gg”。页面上会直接打开一个小表单：选中的文字已是卡片正面，卡片集是你上次使用的那个。输入背面，或点按“自动”让它为你生成，然后点按“保存”。卡片会出现在你使用 Flashcards.gg 的每台设备上的卡片集中。
+
+开始使用：打开应用，在 Safari 设置 › 扩展中开启 Flashcards.gg，然后点按 Safari 工具栏中的 Flashcards.gg 按钮，粘贴你的个人 API 密钥。
+
+扩展只与 flashcards.gg 通信：点按“保存”或“自动”时，选中的文字才会发送到那里；API 密钥只保存在这台 Mac 的 Safari 中。没有分析统计。
+
+你需要一个 Flashcards.gg 账户和一个个人 API 密钥，可在 flashcards.gg 的账户中创建（账户 › API 密钥）。

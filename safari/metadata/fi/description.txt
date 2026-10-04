@@ -1,0 +1,9 @@
+Lisää kortteja Flashcards.gg-setteihisi poistumatta sivulta, jota luet Safarissa.
+
+Valitse sana tai fraasi, ctrl-osoita sitä ja valitse ”Lisää Flashcards.gg:hin”. Sivulle avautuu pieni lomake: valinta on jo etupuoli ja setti on se, jota käytit viimeksi. Kirjoita takapuoli tai paina Auto, niin se kirjoitetaan puolestasi, ja paina sitten Tallenna. Kortti näkyy setissäsi jokaisella laitteella, jolla käytät Flashcards.gg:tä.
+
+Näin pääset alkuun: avaa ohjelma, laita Flashcards.gg päälle kohdassa Safarin asetukset › Laajennukset, klikkaa sitten Flashcards.gg-painiketta Safarin työkalupalkissa ja liitä henkilökohtainen API-avaimesi.
+
+Laajennus on yhteydessä vain flashcards.gg:hen: valittu teksti lähetetään sinne, kun painat Tallenna tai Auto, ja API-avaimesi tallennetaan vain tämän Macin Safariin. Ei analytiikkaa.
+
+Tarvitset Flashcards.gg-tilin ja henkilökohtaisen API-avaimen, jonka luot tililläsi osoitteessa flashcards.gg (Tili › API-avaimet).

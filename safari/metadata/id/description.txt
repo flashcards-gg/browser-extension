@@ -1,0 +1,9 @@
+Tambahkan kartu ke set Flashcards.gg Anda tanpa meninggalkan halaman yang sedang Anda baca di Safari.
+
+Pilih kata atau frasa, klik sambil menekan Control, lalu pilih “Tambahkan ke Flashcards.gg”. Formulir kecil terbuka langsung di halaman: teks pilihan sudah menjadi sisi depan dan setnya adalah yang terakhir Anda gunakan. Tulis sisi belakang, atau tekan Auto agar ditulis untuk Anda, lalu tekan Simpan. Kartu muncul di set Anda di setiap perangkat tempat Anda menggunakan Flashcards.gg.
+
+Untuk memulai: buka aplikasi, aktifkan Flashcards.gg di Pengaturan Safari › Ekstensi, lalu klik tombol Flashcards.gg di bar alat Safari dan tempel kunci API pribadi Anda.
+
+Ekstensi ini hanya berkomunikasi dengan flashcards.gg: teks pilihan dikirim ke sana saat Anda menekan Simpan atau Auto, dan kunci API Anda hanya disimpan di Safari pada Mac ini. Tanpa analitik.
+
+Anda memerlukan akun Flashcards.gg dan kunci API pribadi, yang Anda buat di akun Anda di flashcards.gg (Akun › Kunci API).

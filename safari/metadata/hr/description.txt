@@ -1,0 +1,9 @@
+Dodajte kartice u svoje Flashcards.gg setove bez napuštanja stranice koju čitate u Safariju.
+
+Označite riječ ili izraz, kliknite ih uz pritisnutu tipku Control i odaberite „Dodaj u Flashcards.gg”. Na samoj stranici otvara se mali obrazac: odabrani tekst već je prednja strana, a set je onaj koji ste zadnji koristili. Napišite poleđinu ili pritisnite Auto da se napiše za vas, a zatim Spremi. Kartica se pojavljuje u vašem setu na svakom uređaju na kojem koristite Flashcards.gg.
+
+Za početak: otvorite aplikaciju, uključite Flashcards.gg u postavkama Safarija › Proširenja, zatim kliknite tipku Flashcards.gg na alatnoj traci Safarija i zalijepite svoj osobni API ključ.
+
+Proširenje komunicira samo s flashcards.gg: odabrani tekst šalje se ondje kad pritisnete Spremi ili Auto, a vaš API ključ čuva se samo u Safariju na ovom Macu. Bez analitike.
+
+Trebate Flashcards.gg račun i osobni API ključ koji izrađujete u svom računu na flashcards.gg (Račun › API ključevi).

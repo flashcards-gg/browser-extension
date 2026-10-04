@@ -4,7 +4,7 @@
 |---|---|---|
 | Chrome Web Store | `dist/flashcards-gg-chrome-<version>.zip` | 0.1.0 live since 2026-09-29 (item id `lcbjiemkiefhbjfklbfcndnlindaafek`, https://chromewebstore.google.com/detail/flashcardsgg/lcbjiemkiefhbjfklbfcndnlindaafek); 0.1.1 package ready (same files as the live Edge 0.1.1, permissions unchanged → no re-consent prompt) |
 | Microsoft Edge Add-ons | `dist/flashcards-gg-edge-<version>.zip` (same files as Chrome) | 0.1.1 live (checked 2026-09-30; submitted 2026-09-28 through Partner Center; Product ID `d4bbc638-5f15-4b51-8859-8195dd3cf392`, Store ID `0RDCKGP10MF2`, CRX ID `paokjjmhommaggijlnobbjecndjaknec`) |
-| Mac App Store (Safari) | `safari/build/pkg/*.pkg` from `safari/build-safari.sh` | not submitted — app record to be created (bundle ID `gg.flashcards.safari`) |
+| Mac App Store (Safari) | `safari/build/pkg/*.pkg` from `safari/build-safari.sh` | app record created 2026-10-04 (Apple ID 6819010455, bundle ID `gg.flashcards.safari`); version 0.2.0: listing in 30 languages + 4 screenshots uploaded, price free, 174 territories (as the main app, not RUS), age rating answered; build not uploaded, not submitted |
 | Firefox Add-ons (AMO) | `dist/flashcards-gg-firefox-<version>.zip` + `dist/flashcards-gg-source-<version>.zip` | 0.1.1 in review since 2026-09-28, submitted through the API (add-on id 3081124, https://addons.mozilla.org/firefox/addon/flashcards-gg/) |
 
 All packages come from `npm run build && npm run zip`. The manifest carries the localized name
@@ -108,10 +108,11 @@ fields by hand in the Developer Hub:
 
 The data the extension sends is declared in the Firefox manifest (`data_collection_permissions`: `websiteContent`, `authenticationInfo`) and appears in Firefox's install prompt and on the listing; it must stay consistent with the privacy policy. Updates later: `web-ext sign --channel=listed` with AMO API credentials can submit new versions from CI; not wired up yet.
 
-## Mac App Store — Flashcards.gg for Safari (draft, not submitted)
+## Mac App Store — Flashcards.gg for Safari
 
-A separate app record with its own listing; English below, the other 29 languages to be
-translated by hand before submission.
+A separate app record with its own listing. The texts in all 30 languages live in
+`safari/metadata/<locale>/` and go to App Store Connect with `safari/scripts/asc_metadata.py`
+(dry run by default; `--apply`, `--screenshots`); the English summary below is for reference.
 
 - **Name (≤30):** Flashcards.gg for Safari
 - **Subtitle (≤30):** Turn selected text into cards
@@ -133,9 +134,9 @@ translated by hand before submission.
 
   You need a Flashcards.gg account and a personal API key, which you create in your account at flashcards.gg (Account › API keys).
 
-- **Keywords (≤100):** flashcards,vocabulary,language,study,words,reading,spaced repetition,memorize,translate
+- **Keywords (≤100):** vocabulary,language,study,words,reading,spaced repetition,memorize,translate,learn,cards ("Flashcards" is already indexed from the name)
 - **Age rating:** 4+ (no objectionable content; no web browsing inside the app itself)
 - **App Privacy (draft):** User Content › Other User Content (the selected text and the back) — collected, linked to the user's account, used for App Functionality, not used for tracking. Nothing else is collected; the API key is the user's own credential, kept on the device and sent only to flashcards.gg.
 - **Review notes (draft):** The app is a container for a Safari web extension. To test: open the app → Open Safari Settings → turn on Flashcards.gg → allow it on flashcards.gg when Safari asks → click the Flashcards.gg button in the Safari toolbar → paste the API key below → Save key → select a word on any web page → Control-click → Add to Flashcards.gg → Save. Test account API key: *(the reviewer account's key, added at submission — never committed)*.
-- **Screenshots:** 2880×1800, English or Spanish content only: the context menu in Safari, the in-page form with Auto, the saved state, the app window.
+- **Screenshots:** `docs/store/safari/mac_0N_*.png`, 2880×1800, uploaded to en-US only (the other languages fall back to it): the context menu in Safari, the in-page form with Auto, the saved state, the app window.
 

@@ -1,0 +1,9 @@
+Lägg till kort i dina uppsättningar på Flashcards.gg utan att lämna sidan du läser i Safari.
+
+Markera ett ord eller en fras, kontrollklicka på det och välj ”Lägg till i Flashcards.gg”. Ett litet formulär öppnas direkt på sidan: Markeringen är redan framsidan och uppsättningen är den du använde senast. Skriv baksidan, eller klicka på Auto för att få den skriven, och klicka sedan på Spara. Kortet dyker upp i din uppsättning på alla enheter där du använder Flashcards.gg.
+
+Så kommer du igång: Öppna appen, slå på Flashcards.gg i Safari-inställningar › Tillägg, klicka sedan på Flashcards.gg-knappen i Safaris verktygsfält och klistra in din personliga API-nyckel.
+
+Tillägget pratar bara med flashcards.gg: Den markerade texten skickas dit när du klickar på Spara eller Auto, och din API-nyckel sparas bara i Safari på den här Macen. Ingen analys.
+
+Du behöver ett Flashcards.gg-konto och en personlig API-nyckel, som du skapar i ditt konto på flashcards.gg (Konto › API-nycklar).
