@@ -2,7 +2,7 @@
 
 Adds **Add to Flashcards.gg** to the right-click menu on selected text in Chrome, Edge, Firefox and Safari on the Mac. The selected word or phrase becomes the front of a new card in one of your [Flashcards.gg](https://flashcards.gg) sets, saved through the public API with your own API key.
 
-**Install:** [Chrome Web Store](https://chromewebstore.google.com/detail/flashcardsgg/lcbjiemkiefhbjfklbfcndnlindaafek) · [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/flashcards-gg/) · [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/paokjjmhommaggijlnobbjecndjaknec). Safari: the Mac app *Flashcards.gg for Safari* is built from [`safari/`](safari/README.md); its App Store listing is in preparation. It can also be loaded unpacked from a local build (see below).
+**Install:** [Chrome Web Store](https://chromewebstore.google.com/detail/flashcardsgg/lcbjiemkiefhbjfklbfcndnlindaafek) · [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/flashcards-gg/) · [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/paokjjmhommaggijlnobbjecndjaknec) · [Mac App Store (Safari)](https://apps.apple.com/app/id6819010455). In Safari the extension comes inside the Mac app *Flashcards.gg for Safari*, built from [`safari/`](safari/README.md). It can also be loaded unpacked from a local build (see below).
 
 | | |
 |---|---|
